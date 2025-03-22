@@ -1,0 +1,30 @@
+"use client";
+import React, { useState } from "react";
+
+ 
+
+const TabView = ({tabs ,heading}) => {
+  const [activeTab, setActiveTab] = useState(0);
+
+  return (
+    <div className=" mx-auto px-28 py-12  mb-32 h-60 bg-primary">
+      <h2 className="text-4xl font-semibold text-white text-center mb-8">{heading}</h2>
+      <div className="flex border-b dark:border-primary">
+        {tabs.map((tab, index) => (
+          <button
+            key={index}
+            className={`flex-1 p-3 text-center font-medium ${
+              activeTab === index ? "bg-green-600 text-white" : "bg-secondary dark:text-gray-200 text-gray-100"
+            }`}
+            onClick={() => setActiveTab(index)}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+      <div className="p-4  bg-white dark:bg-secondary border dark:border-primary rounded-b-lg">{tabs[activeTab].content}</div>
+    </div>
+  );
+};
+
+export default TabView;
