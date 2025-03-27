@@ -20,7 +20,7 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="w-full bg-white dark:bg-secondary">
+    <form onSubmit={handleSubmit(onSubmit)} className="w-full ">
       <div className="space-y-4">
         {/* Name & Phone Fields */}
         <div className="flex space-x-2">
@@ -39,7 +39,7 @@ const Form = () => {
               type="tel"
               placeholder="Phone"
               {...register("phone", { required: "Phone is required" })}
-              className="w-full p-3 text-black border bg-primarybg dark:text-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+              className="w-full p-3 text-black border bg-primarybg dark:text-gray-50 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             />
             {errors.phone && <p className="text-red-500 text-sm mt-1 w-full">{errors.phone.message}</p>}
           </div>

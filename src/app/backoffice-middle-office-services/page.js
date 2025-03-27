@@ -29,7 +29,7 @@ const page = () => {
   return (
     <div className="bg-white dark:bg-secondary">
       <PageBanner data={"Back Office & Middle Office Services"} />
-      <div className="py-14 px-28">
+      <div className="py-14 max-w-7xl mx-auto">
         <p className="px-6 text-center dark:text-white text-black lg:text-left">
           Organizations need to stay focused on the company’s goals, growth, and
           core strengths. Inspirigence provides cost-effective back office and
@@ -41,7 +41,10 @@ const page = () => {
           productivity, accuracy, and predictability in your processes.
         </p>
       </div>
-      <div className="bg-primarybg text-gray-900 py-12 px-28">
+      <div  className="bg-primarybg">
+
+      
+      <div className=" text-gray-900 py-12 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-10 px-4">
           {services.map((service, index) => (
             <div key={index}>
@@ -57,6 +60,7 @@ const page = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
       <FormComponent />
     </div>

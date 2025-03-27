@@ -11,8 +11,8 @@ const Mission = () => {
           <Image
           width={500}
           height={500}
-            className=" rounded-xl object-cover"
-            src="/images/about/about.webp"
+            className=" rounded-xl object-cover aspect-square"
+            src="/images/about/mission.jpg"
             alt="about Us image"
           />
         </div>
@@ -31,7 +31,7 @@ const Mission = () => {
             Our Mission
             </h3>
             <h2 className="text-secondary dark:text-white  text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-            We help our clients identify their business and financial needs
+            Helping our clients identify their business and financial needs
             </h2>
             <p className="text-gray-500 dark:text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
             Our team includes experienced and skilled accountants, Company Secretaries, Lawyers, and finance professionals.

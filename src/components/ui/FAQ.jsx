@@ -12,7 +12,7 @@ const FAQ = ({faqs}) => {
     };
 
     return (
-        <section className="py-24">
+        <section className="py-24 bg-primarybg">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="mb-16">
                     <h2 className="text-4xl font-manrope text-center font-bold dark:text-white text-secondary leading-[3.25rem]">
@@ -37,7 +37,7 @@ const FAQ = ({faqs}) => {
                                 className="transition-all duration-500 ease-in-out"
                                 style={{ maxHeight: activeIndex === index ? `${contentRefs.current[index]?.scrollHeight}px` : '0px', opacity: activeIndex === index ? 1 : 0 }}
                             >
-                                <p className="mt-2 text-base dark:text-gray-300 text-gray-900 font-normal leading-6">
+                                <p className=" text-base dark:text-gray-300 text-gray-900 font-normal leading-6">
                                     {faq.answer}
                                 </p>
                             </div>

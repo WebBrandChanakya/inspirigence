@@ -13,7 +13,7 @@ const page = () => {
     <div className='bg-white dark:bg-secondary'>
         <PageBanner data={"Financial Due Diligence Services in India"}/>
         <About data={Data}/>
-        <div className="py-14 px-28">
+        <div className="py-14 max-w-7xl mx-auto">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
         Understanding Financial Due Diligence in Business Transactions
         </h3>
@@ -23,7 +23,7 @@ const page = () => {
       </div>
       <MAConsulting heading={"Inspirigence – The Best Financial Due Diligence Firm"} para={"The breadth of due diligence varies with the size and structure of the organization, whether you are trying to acquire a new company or selling a unit. Inspirigence, a one of the top financial due diligence firms in India, offers services by doing in-depth analysis and research of the company’s legal and financial situation. The following is a step-by-step guide to the due diligence process:"} services={Diligence }/>
       <About data={Best}/>
-      <div className=" py-14 px-28 ">
+      <div className=" py-14 max-w-7xl mx-auto ">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
         What Makes Us Stand Out?
         </h3>
@@ -32,8 +32,8 @@ const page = () => {
         </p>
         <Card cardData={Stand } />
       </div>
-      <div>
-        <div className=" bg-primarybg px-4 pt-4 lg:pt-20 lg:px-24 relative ">
+      <div className='bg-primarybg'>
+        <div className=" max-w-7xl mx-auto pt-4 lg:pt-20  relative ">
           <div className="bg-white dark:bg-secondary px-2 z-10 py-4  lg:p-14 rounded-lg shadow2xl">
             <h3 className="lg:text-4xl text-xl font-bold dark:text-primary text-secondary text-center mb-4 lg:mb-10">
             Documents Required During Due Diligence Process

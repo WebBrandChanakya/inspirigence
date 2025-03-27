@@ -27,7 +27,7 @@ const data = [
 
 const AdvisorsComponent = () => {
   return (
-    <div className=" mx-auto py-12  px-28">
+    <div className=" mx-auto py-12  max-w-7xl ">
       <h2 className="text-4xl font-bold text-center text-secondary dark:text-white mb-6">
         Inspigience – Alternative Fund Advisors
       </h2>

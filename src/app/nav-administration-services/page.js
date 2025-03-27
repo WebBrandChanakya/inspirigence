@@ -6,9 +6,10 @@ import { Data, points } from "@/content/NAV";
 const page = () => {
   return (
     <div className="bg-white dark:bg-secondary">
-      <PageBanner data={"NAV administration Services"} />
+      <PageBanner data={"NAV Administration Services"} />
       <About data={Data} />
-      <div className="bg-[#04314D] text-white py-12 px-24">
+      <div className="bg-secondary">
+      <div className=" text-white py-12 max-w-7xl mx-auto border-b">
         <h2 className="text-2xl font-semibold text-center mb-6">
           Why Choose Our NAV Administration Service
         </h2>
@@ -26,6 +27,7 @@ const page = () => {
           investment funds. Contact us today to learn more about how we can
           support your financial operations.
         </p>
+      </div>
       </div>
       <FormComponent />
     </div>

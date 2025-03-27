@@ -1,12 +1,12 @@
 import { FaNetworkWired, FaLaptopCode, FaCloud , FaLock, FaShieldAlt, FaFileSignature } from "react-icons/fa";
 export const Data = {
-    heading: "Cybersecurity Services",
+    heading: "Cyber Security Services",
     description1:
       "In today's digital landscape, cyber threats are more sophisticated than ever. Our cutting-edge cybersecurity solutions protect businesses from cyberattacks, data breaches, and online threats, ensuring a secure and resilient digital environment.",
     description2:
       "With a proactive approach to security, we help organizations safeguard their critical assets, maintain compliance, and mitigate risks with advanced threat detection and response strategies.",
     contactLink: "/contact",
-    imageSrc: "/images/home/about.webp",
+    imageSrc: "/images/services/cyber-security.jpg",
   };
 
 export const Services = [

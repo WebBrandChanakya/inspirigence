@@ -5,7 +5,7 @@ export const Data = {
     description2:
       "At Inspirigence Advisors, we understand that precise NAV calculations are crucial for maintaining investor confidence and regulatory compliance. Our team of experienced professionals is dedicated to delivering timely and reliable NAV administration, tailored to meet the unique needs of your investment funds.",
     contactLink: "/contact",
-    imageSrc: "/images/home/about.webp",
+    imageSrc: "/images/services/admin.webp",
   };
  export const points = [
     {

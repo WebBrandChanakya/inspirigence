@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #2cbc64;
+}

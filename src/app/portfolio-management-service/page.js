@@ -13,7 +13,7 @@ const page = () => {
     <div className="bg-white dark:bg-secondary">
       <PageBanner data={"Portfolio Management Service"} />
       <About data={Data} />
-      <div className=" py-14">
+      <div className=" py-14 max-w-7xl mx-auto">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
           Why Choose Our Portfolio Management Services
         </h3>
@@ -24,8 +24,8 @@ const page = () => {
           heading={"Our Approach to Portfolio Management"}
           services={Approach}
         />
-      <div>
-        <div className=" bg-primarybg px-4 pt-4 lg:pt-20 lg:px-24 relative ">
+      <div className="bg-primarybg">
+        <div className="  max-w-7xl mx-auto  pt-4 lg:pt-20  relative ">
           <div className="bg-white dark:bg-secondary px-2 z-10 py-4  lg:p-14 rounded-lg shadow2xl">
             <h3 className="lg:text-4xl text-xl font-bold dark:text-primary text-secondary text-center mb-4 lg:mb-10">
               Who Can Benefit from Our Portfolio Management Services
@@ -35,7 +35,7 @@ const page = () => {
         </div>
         <div className="w-full bg-primary h-40 -mt-28 lg:-mt-16"></div>
       </div>
-      <div className=" py-14">
+      <div className=" py-14 max-w-7xl mx-auto">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
         Types of Portfolio Management Services We Offer
         </h3>

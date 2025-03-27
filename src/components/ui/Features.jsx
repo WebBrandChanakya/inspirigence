@@ -13,7 +13,7 @@ const features = [
 
 const Features = () => {
     return ( 
-        <div className=" flex flex-col items-center justify-center  px-2 lg:px-20">
+        <div className=" flex flex-col items-center justify-center">
             <div className="z-10 py-36 px-1 lg:px-0 flex flex-col md:flex-row items-center justify-center bg-white dark:bg-secondary rounded-full lg:py-10 shadow-lg  w-full  mx-auto space-x-4 ">
                 {/* Left Column */}
                 <div className="flex flex-col space-y-10 w-full md:w-1/3 text-right">

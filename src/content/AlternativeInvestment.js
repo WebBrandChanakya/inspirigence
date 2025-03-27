@@ -14,7 +14,7 @@ export const Data = {
   description2:
     "As one of India’s top alternative investment fund advisors, we strive to provide customized solutions that assist businesses and investors in reaching their financial objectives. Our commitment to excellence has established us as a reliable partner for navigating the complexities of India’s financial markets.",
   contactLink: "/contact",
-  imageSrc: "/images/home/about.webp",
+  imageSrc: "/images/services/AIF.jpeg",
 };
 export const Understanding = {
   heading: "Understanding  Alternative Investment Funds (AIFs)",

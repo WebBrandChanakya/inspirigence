@@ -7,7 +7,8 @@ const TabView = ({tabs ,heading}) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className=" mx-auto px-28 py-12  mb-32 h-60 bg-primary">
+    <div className=" mx-auto  py-12  h-60 bg-primary mb-40">
+      <div className="max-w-7xl mx-auto">
       <h2 className="text-4xl font-semibold text-white text-center mb-8">{heading}</h2>
       <div className="flex border-b dark:border-primary">
         {tabs.map((tab, index) => (
@@ -23,6 +24,7 @@ const TabView = ({tabs ,heading}) => {
         ))}
       </div>
       <div className="p-4  bg-white dark:bg-secondary border dark:border-primary rounded-b-lg">{tabs[activeTab].content}</div>
+    </div>
     </div>
   );
 };

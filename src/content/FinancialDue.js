@@ -7,18 +7,14 @@ export const Data = {
   description2:
     "The examination also contains management reporting data, which includes information about the company’s assets and liabilities, expense structure, and earnings from primary operations, among other things.",
   contactLink: "/contact",
-  imageSrc: "/images/home/about.webp",
+  imageSrc: "/images/services/diligence.jpg",
 };
 export const Best = {
   heading:
     "Inspirigence Advisors – One of the Best Financial Due Diligence Firms",
   description1: (
     <>
-      We are a renowned{" "}
-      <a href="/finance-consulting-company-in-india" className="text-primary">
-        financial advisory firm
-      </a>{" "}
-      specializing in delivering top-tier due diligence services in India. Our
+      We are a renowned financial advisory firm specializing in delivering top-tier due diligence services in India. Our
       emphasis lies in thoroughly evaluating businesses, highlighting their
       strengths and potential growth avenues, while diligently identifying any
       risks to strategically position them for acquisition negotiations.
@@ -26,7 +22,7 @@ export const Best = {
   ),
   description2:
     "To ensure comprehensive solutions, we work closely with industry professionals, including legal and tax experts, among others, facilitating a seamless and integrated approach.",
-  imageSrc: "/images/home/about.webp",
+  imageSrc:  "/images/services/Due-Diligence-1.jpg",
 };
 export const Corporate  = {
   heading:
@@ -34,7 +30,7 @@ export const Corporate  = {
   description1: "Due diligence is quickly becoming the primary strategy for gaining an understanding of the target business and market circumstances. These evaluations protect the reputation of the good while exposing the false. Though not legally required, it assists us in predicting alternative outcomes and making decisions that benefit the decision-maker. ",
   description2:
     "Corporate due diligence services in India is becoming increasingly important, since it fosters confidence among corporate partners, international investors, and market players. Before making any investment, a smart person should conduct due diligence.",
-  imageSrc: "/images/home/about.webp",
+  imageSrc: "/images/services/Due.jpg",
 };
 export const cardData = [
   "Financial Statement",
@@ -194,7 +190,7 @@ export const faqs = [
     question: "What comes after due diligence?",
     answer: (
       <span>
-        The term “due diligence period” describes the length of time that
+        The term “<a href="https://en.wikipedia.org/wiki/Due_diligence"> due diligence </a> period” describes the length of time that
         parties to a contract concur to grant one another in order to conduct an
         audit, an inspection, or more research into the facts surrounding a
         transaction. After due diligence services in India, the buyer and seller

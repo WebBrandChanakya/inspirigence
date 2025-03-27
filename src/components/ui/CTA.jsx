@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export default function CTA({ title, description, subtext, buttonText, buttonLink, imageSrc }) {
-  console.log(title, description, subtext, buttonText, buttonLink);
     return (
       <div className="flex flex-col md:flex-row items-center justify-between bg-primary text-white rounded-2xl shadow-lg mx-auto m-5">
         {/* Left Side - Text & Input */}
@@ -18,7 +17,7 @@ export default function CTA({ title, description, subtext, buttonText, buttonLin
   
         {/* Right Side - Image */}
         {imageSrc && (
-          <div className="md:w-1/3 -m-5 hidden lg:block">
+          <div className="md:w-1/3 -m-5 hidden lg:block border rounded-lg">
             <img 
               src={imageSrc} 
               alt="Business analytics"

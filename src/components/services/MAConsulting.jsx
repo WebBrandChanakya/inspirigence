@@ -5,7 +5,7 @@ import React from "react";
 const MAConsulting = ({heading,services,para}) => {
   return (
     <div className="bg-gray-100 dark:bg-primarybg flex justify-center items-center py-12">
-      <div className="max-w-6xl w-full">
+      <div className="max-w-7xl w-full">
         <h2 className="text-center text-4xl text-secondary dark:text-white font-bold mb-6">
           
           {heading}

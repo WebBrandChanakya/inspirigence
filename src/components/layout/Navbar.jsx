@@ -8,7 +8,7 @@ import { FiMenu, FiX, FiChevronDown } from 'react-icons/fi';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [dropdownOpen, setDropdownOpen] = useState(true);
+    const [dropdownOpen, setDropdownOpen] = useState(false);
 
     const navLinks = LinksData.find(section => section.title === "Quick Links");
     
@@ -21,8 +21,8 @@ const Navbar = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
-                        src="/images/logo/mainlogo.png"
-                        width={150}
+                        src="/images/logo/logo-footer.png"
+                        width={250}
                         height={100}
                         className="rounded-lg"
                         alt="Inspirigence Advisors | Financial Services"
@@ -51,13 +51,14 @@ const Navbar = () => {
                                         >
                                             {link.label} <FiChevronDown size={16} className="ml-1" />
                                         </Link>
-                                        <div className={`absolute left-0 space-x-4 flex p-10 bg-white dark:bg-primary overflow-hidden shadow-lg rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}
+                                        <div className={`absolute left-0 space-x-4  bg-white border  dark:bg-primary overflow-hidden shadow-lg rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}
                                             onMouseEnter={() => setDropdownOpen(true)}
                                             onMouseLeave={() => setDropdownOpen(false)}
                                            >
+                                            <div className="bg-[#023a5124] flex p-10">
                                             {link.subLinks.map((subLink, subIndex) => (
-                                                <ul key={subIndex}>
-                                                    <Link href={subLink.href} className="block font-bold text-nowrap px-4 py- text-secondary ">
+                                                <ul key={subIndex} >
+                                                    <Link href={subLink.href} className="block font-bold text-nowrap px-4  text-secondary ">
                                                         {subLink.label}
                                                     </Link>
                                                     
@@ -71,6 +72,8 @@ const Navbar = () => {
                                                     </li>
                                                 </ul>
                                             ))}
+                                            </div>
+                                            
                                         </div>
                                     </>
                                 ) : (

@@ -9,15 +9,17 @@ const page = () => {
     <div className="bg-white dark:bg-secondary">
       <PageBanner data={"Corporate Entities"} />
 
-      <div className=" py-14 bg-primarybg">
+      <div className=" py-14  max-w-7xl mx-auto ">
         <Features />
       </div>
-      <div className=" py-14 px-28 ">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+      <div className=" py-14  bg-primarybg">
+        <div className=" max-w-7xl mx-auto ">
+        <h3 className="text-4xl font-bold dark:text-primary text-secondary  text-center mb-10">
           Exceptional Accounting Resources
         </h3>
 
         <IconBox />
+      </div>
       </div>
       <FormComponent />
     </div>

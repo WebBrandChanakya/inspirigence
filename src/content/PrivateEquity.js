@@ -8,7 +8,7 @@ export const Data = {
     description2:
       "At Inspirigence Advisors, we understand the complexities and unique challenges of the private equity landscape, and our team of seasoned professionals is dedicated to delivering tailored solutions that drive sustainable growth and maximize value. Whether you’re navigating investment opportunities, enhancing portfolio performance, or refining your exit strategies, trust Inspirigence Advisors to be your trusted partner in achieving success in the dynamic world of private equity.",
     contactLink: "/contact",
-    imageSrc: "/images/home/about.webp",
+    imageSrc: "/images/services/privatequity.png",
   };
   export const Functions = [
     {
@@ -43,7 +43,7 @@ export const Data = {
     {
       title: "Versatility",
       description:
-        "The sustainability of an investment thesis depends on the ability to adjust to the project dynamics and take the necessary action. Flexibility and humility are values that we value highly at Inspirigence. It has continuously assisted us in identifying trends and tactics that have enhanced our clients’ returns and competitiveness.",
+        <>The sustainability of an investment thesis depends on the ability to adjust to the project dynamics and take the necessary action. Flexibility and humility are values that we value highly at <a href="/"> Inspirigence</a>. It has continuously assisted us in identifying trends and tactics that have enhanced our clients’ returns and competitiveness.</>,
       icon: <FaSyncAlt className="text-3xl text-white" />,
     },
   ];

@@ -6,7 +6,7 @@ export const Data = {
     description2:
       "Whether you're an individual investor, a high-net-worth individual (HNI), or an institution, we offer customized portfolio strategies that align with your financial goals.",
     contactLink: "/contact",
-    imageSrc: "/images/home/about.webp",
+    imageSrc: "/images/services/pms.jpg",
   };
 
 export const Why = [

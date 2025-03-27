@@ -1,3 +1,4 @@
+
 import {
   FaLightbulb,
   FaShieldAlt,
@@ -8,6 +9,7 @@ import {
   FaUniversity,
   FaHandHoldingUsd,
   FaHandshake,
+  FaDollarSign, FaProjectDiagram, FaClipboardList, FaMobileAlt, FaCalendarCheck
 } from "react-icons/fa";
 
 export const Data = {
@@ -17,7 +19,7 @@ export const Data = {
   description2:
     "As a trusted partner in India’s equity markets, we help companies go public with confidence, ensuring long-term growth and success.",
   contactLink: "/contact",
-  imageSrc: "/images/home/about.webp",
+  imageSrc: "/images/services/ipo.jpg",
 };
 export const ipoData = {
   heading: "Inspirigence – Your Partner For Successful IPO Launch",
@@ -108,6 +110,32 @@ export const Advantages = [
   },
 ];
 
+export const How = [
+  {
+    icon: <FaDollarSign className="text-green-600 text-3xl" />,
+    text: "Create a true and clear investment proposal as well as a strategic justification for the IPO listing.",
+  },
+  {
+    icon: <FaHandshake className="text-green-600 text-3xl" />,
+    text: "Create an IPO rollout strategy that specifies communications-related actions and responsibilities.",
+  },
+  {
+    icon: <FaProjectDiagram className="text-green-600 text-3xl" />,
+    text: "Create an investor relations architecture and inquiry processing methods.",
+  },
+  {
+    icon: <FaClipboardList className="text-green-600 text-3xl" />,
+    text: "Develop and improve disclosure and reporting procedures.",
+  },
+  {
+    icon: <FaMobileAlt className="text-green-600 text-3xl" />,
+    text: "Get prepared for the first earnings call.",
+  },
+  {
+    icon: <FaCalendarCheck className="text-green-600 text-3xl" />,
+    text: "Make arrangements for listing day coverage and event assistance.",
+  },
+];
 export const Services = [
   {
     description:
@@ -296,7 +324,7 @@ export const faqs = [
       "How does the IPO process work in India, and what are the key stages involved?",
     answer: (
       <span>
-        In India, the IPO launching process consists of several stages, but you
+        In India, the <a href="/how-to-launch-ipo-in-india">IPO launching process</a> consists of several stages, but you
         do not have to go alone through all the processes. Our IPO consulting
         services make the entire process smooth and effortless. The various key
         stages involved in the entire process are: <br />

@@ -1,5 +1,7 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
+import ContactBtn from '../ui/ContactBtn'
 
 const Hero = () => {
     return (
@@ -16,16 +18,8 @@ const Hero = () => {
                             <p className=" text-gray-0 dark:text-white text-black lg:text-lg text-center lg:text-left">
                                 Inspirigence Advisors is a leading financial service provider in India, offering expert solutions in fund accounting, administration, compliance, advisory, and more.
                             </p>
-                            <div className="relative p-1.5 my-10  flex  items-center gap-y-4 h-auto md:h-16  md:flex-row justify-between rounded-full md:shadow-[0px 15px 30px -4px rgba(16, 24, 40, 0.03)] border md:bg-white transition-all duration-0 border-primary focus-within:border-2">
-                                <input
-                                    type="text"
-                                    name="email"
-                                    placeholder="Enter email to get started"
-                                    className="text-base rounded-full text-gray-900 flex-1 py-4 px-6 shadow-[0px 15px 30px -4px rgba(16, 24, 40, 0.03)] md:shadow-none bg-white md:bg-transparent shadow-none placeholder:text-gray-400 focus:outline-none md:w-fit w-full"
-                                />
-                                <button className="bg-primary rounded-full py-3 px-7 lg:text-base font-semibold text-white hover:bg-primary cursor-pointer transition-all duration-0 md:w-fit ">
-                                    Get Started
-                                </button>
+                            <div className="relative my-10  flex  items-center  justify-between  ">
+                                <ContactBtn/>
                             </div>
 
                         </div>

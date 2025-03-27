@@ -23,19 +23,19 @@ const page = () => {
     <div className="bg-white dark:bg-secondary">
       <PageBanner data={"Best Alternative Fund Advisors in India (AIF)"} />
       <About data={Data} />
-      <div className="px-24">
+      <div className="max-w-7xl mx-auto">
         <IPOLaunch ipoData={Understanding} />
       </div>
-      <div className=" py-14">
+      <div className=" py-14 max-w-7xl mx-auto">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
           Key Features of AIFs
         </h3>
         <Card cardData={Features} />
       </div>
       <TabView tabs={tabs} heading={"Different Types Of AIF’s Available"} />
-      <div>
-        <div className=" bg-primarybg px-4 pt-4 lg:pt-20 lg:px-16 relative ">
-          <div className="bg-white dark:bg-secondary  z-10 py-4  lg:py-14 rounded-lg shadow2xl">
+      <div className="bg-primarybg">
+        <div className="  max-w-7xl mx-auto pt-4 lg:pt-20  relative ">
+          <div className="bg-white dark:bg-secondary  z-10 py-4  lg:py-14 px-14 rounded-lg shadow2xl">
             <h3 className="lg:text-4xl text-xl font-bold dark:text-primary text-secondary text-center mb-4 lg:mb-10">
             Potential Benefits of AIFs
             </h3>

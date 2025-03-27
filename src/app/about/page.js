@@ -13,13 +13,13 @@ const page = () => {
     <div className="bg-white dark:bg-secondary">
       <PageBanner data={"About Us"} />
       <Mission />
-      <div className=" flex px-24  items-center space-x-2">
+      <div className=" flex max-w-7xl mx-auto py-16  items-center space-x-2">
         <div className="w-1/2 h-full flex  items-center">
           <Image
-            className="mt-20"
-            width={700}
-            height={700}
-            src="/images/home/dashboard.webp"
+            className="mt-20 rounded"
+            width={600}
+            height={600}
+            src="/images/about/values.jpg"
           />
         </div>
         <div className="flex flex-col items-center">

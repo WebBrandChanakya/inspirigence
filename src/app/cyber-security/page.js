@@ -10,7 +10,7 @@ const page = () => {
     <div className='bg-white dark:bg-secondary'>
             <PageBanner data={"Cyber Security"}/>
             <About data={Data}/>
-            <div className="py-14 px-28">
+            <div className="py-14  max-w-7xl mx-auto">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
         Why Cybersecurity is Essential?
         </h3>
@@ -19,11 +19,13 @@ const page = () => {
         </p>
       </div>
       <div className=" py-14 bg-primarybg">
+        <div className=" max-w-7xl mx-auto  ">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
         Our Cybersecurity Services
         </h3>
         <Card cardData={Services} hover />
       
+      </div>
       </div>
       <FormComponent/>
     </div>

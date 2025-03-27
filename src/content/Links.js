@@ -11,7 +11,7 @@ export const LinksData = [
         label: "Services",
         subLinks: [
           {
-            href: "/services/investment-banking",
+            href: "/services/investment-banking-advisors",
             label: "Investment Banking",
             subServices: [
               {
@@ -84,11 +84,12 @@ export const LinksData = [
   {
     title: "Services",
     links: [
-      { href: "#", label: "Fund Accounting" },
-      { href: "#", label: "Regulatory Compliance" },
-      { href: "#", label: "Investor Relations" },
-      { href: "#", label: "Tax Consulting" },
-      { href: "#", label: "Financial Advisory" },
+      { href: "/ipo-advisory-service-in-india", label: "IPO Advisory" },
+      { href: "/corporate-due-diligence-services-in-india", label: "Corporate Due Diligence" },
+      { href: "/merger-and-acquisition-consultant", label: "M&A Consulting Services" },
+      { href: "/fund-accounting-company-in-india/", label: "Fund Accounting" },
+      { href: "/alternative-investment-fund-advisors-in-india", label: "Alternative Fund Advisors" },
+      { href: "/portfolio-management-service", label: "Portfolio Management Service" },
     ],
   },
   {
@@ -134,4 +135,12 @@ export const LinksData = [
       },
     ],
   },
+
 ];
+export const Follow = {
+      Instagram:"https://www.instagram.com/inspirigence_advisors/",
+      Facebook:"https://www.facebook.com/inspirigenceadvisors",
+      Twitter:"https://x.com/Inspirigence",
+      LinkedIn:"https://www.linkedin.com/company/inspirigence-advisors/",
+    }
+  

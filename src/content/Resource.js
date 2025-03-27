@@ -1,4 +1,5 @@
-import { FaChartLine, FaCheckCircle, FaDollarSign, FaUniversity, FaExchangeAlt, FaHandshake } from 'react-icons/fa'; 
+
+import { FaChartLine, FaCheckCircle, FaDollarSign, FaUniversity, FaExchangeAlt, FaHandshake, FaChartBar, FaBalanceScale } from 'react-icons/fa'; 
  export const SubServices = [
     {
         title: "IPO Advisory",
@@ -31,6 +32,59 @@ import { FaChartLine, FaCheckCircle, FaDollarSign, FaUniversity, FaExchangeAlt, 
         icon: <FaHandshake className="text-3xl text-white" />
     }
 ];
+export const Top = [
+    {
+      title: "Applications",
+      description: (
+       
+          <ul className="list-disc">
+            <li>
+            Share/Securities Accounting
+            </li>
+            <li>
+            Algorithm trading
+            </li>
+          </ul>
+        
+      ),
+      icon: <FaUniversity className="text-3xl text-white" />,
+      link: "/services/investment-banking-advisors",
+    },
+    {
+      title: "MIS",
+      description: (
+   
+          <ul className="list-disc">
+            <li>
+            Dashboards
+            </li>
+            <li>
+            Key Matrix Indicators
+            </li>
+          </ul>
+       
+      ),
+      icon: <FaChartBar className="text-3xl text-white" />,
+      link: "/services/capital-market",
+    },
+    {
+      title: "Compliances",
+      description: (
+      
+          <ul className="list-disc">
+            <li>
+            Personal Account Trading
+            </li>
+            <li>
+            eKYC
+            </li>
+          </ul>
+       
+      ),
+      icon: <FaBalanceScale className="text-3xl text-white" />,
+      link: "/services/compliance",
+    }
+  ];
  export const ctaData = {
     title: "Get a personal consultation",
     subtext: "We will take care of your accounting and administrative services",

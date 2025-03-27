@@ -7,7 +7,7 @@ export const Data = {
     description2:
       "Our team of seasoned Consultants play a vital role in helping  consultants leverage deep industry insights to ensure optimal outcomes for our clients, offering tailored support at every stage of the transaction.",
     contactLink: "/contact",
-    imageSrc: "/images/home/about.webp",
+    imageSrc: "/images/services/Merger.jpg",
   };
 export const services = [
     {
@@ -17,8 +17,8 @@ export const services = [
     },
     {
       title: "Buy-Side Advisory",
-      description:
-        "We assist companies in identifying and acquiring strategic targets through a meticulous approach to Due Diligence in M&A. Our expertise in thorough evaluation, precise valuations, and skilled negotiations ensures successful acquisitions that align seamlessly with our client’s strategic objectives.",
+      description:(<>
+      We assist companies in identifying and acquiring strategic targets through a meticulous approach to <a href="/role-of-due-diligence-in-mergers-and-acquisitions">Due Diligence in M&A.</a> Our expertise in thorough evaluation, precise valuations, and skilled negotiations ensures successful acquisitions that align seamlessly with our client’s strategic objectives.</>)
     },
     {
       title: "Strategic Advisory",
@@ -166,6 +166,6 @@ export const services = [
     },
     {
         question: 'How does Inspirigence determine the value of a company in an M&A transaction?',
-        answer: "Being one of the prominent merger and acquisition consulting firms in India, Inspirigence Advisors employs a comprehensive approach to company valuation in M&A transactions. We use industry-standard methodologies such as discounted cash flow analysis to project future earnings. Comparable company analysis helps benchmark against similar firms in the industry. Precedent transaction analysis considers recent deals in the sector. We also factor in industry trends, market conditions, and company-specific elements like growth potential and competitive positioning. This multi-faceted approach ensures a fair and accurate valuation, crucial for successful M&A outcomes."
+        answer: <>Being one of the prominent merger and acquisition consulting firms in India, Inspirigence Advisors employs a comprehensive approach to company valuation in <a href="https://www.pwc.com/mt/en/publications/tax-legal/mergers-and-acquisitions-5-stages-of-MA-transaction.html">M&A transactions</a>. We use industry-standard methodologies such as discounted cash flow analysis to project future earnings. Comparable company analysis helps benchmark against similar firms in the industry. Precedent transaction analysis considers recent deals in the sector. We also factor in industry trends, market conditions, and company-specific elements like growth potential and competitive positioning. This multi-faceted approach ensures a fair and accurate valuation, crucial for successful M&A outcomes.</>
     }
 ];

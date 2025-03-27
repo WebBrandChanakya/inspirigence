@@ -11,16 +11,17 @@ const page = () => {
     <div className="bg-white dark:bg-secondary">
       <PageBanner data={"Private Equity Consulting"} />
       <About data={Data} />
-      <div className="py-14 px-28">
+      <div className="py-14 max-w-7xl mx-auto">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
         Private Equity Funds: What are They?
         </h3>
         <p className="px-6 text-center dark:text-white text-black lg:text-left">
-        A private equity fund, commonly known as private equity, is a type of collective investment plan that entails investors making direct investments in privately held businesses. Typically, a limited liability company or firm will oversee the management of a private equity fund. The investment horizon with these funds can be extended annually and can vary from 5 to 10 years.<br/>The fact that private equity funds are not traded on the stock exchange is one of their distinguishing characteristics. Moreover, not everyone has access to these capitals. only, investment banks and High Networth Individuals (HNIs) make up the majority of institutional investors from whom money is often raised. A team that is professionally managed raises money and puts it to use by investing in other privately held businesses, raising capital, and financing new ventures and acquisitions.
+        A private equity fund, commonly known as private equity, is a type of collective investment plan that entails investors making direct investments in privately held businesses. Typically, a limited liability company or firm will oversee the management of a private equity fund. The investment horizon with these funds can be extended annually and can vary from 5 to 10 years.<br/>The fact that private equity funds are not traded on the stock exchange is one of their distinguishing characteristics. Moreover, not everyone has access to these capitals. only, investment banks and <a href="https://en.wikipedia.org/wiki/High-net-worth_individual"> High Networth Individuals </a> (HNIs) make up the majority of institutional investors from whom money is often raised. A team that is professionally managed raises money and puts it to use by investing in other privately held businesses, raising capital, and financing new ventures and acquisitions.
         </p>
       </div>
       <MAConsulting heading={"Functions of Private Equity Consulting Firms"} services={Functions} para={"Following are some of the most typical uses:"}/>
-      <div className="py-14 px-28 bg-secondary">
+      <div  className="bg-secondary">
+      <div className="py-14 max-w-7xl mx-auto ">
           <h3 className="text-2xl font-bold text-white text-center mb-10">
           Why Choose Inspirigence?
           </h3>
@@ -32,15 +33,16 @@ const page = () => {
           We assist private equityand venture capital investors in locating, evaluating, and screening possible investments in cutting-edge, fast-growing businesses. Additionally, in order to boost growth and optimise returns on investors’ investments, as one of the prominent Private Equity consulting firms, we provide our portfolio firms beneficial strategic consulting services.
           </p>
       </div>
-      <div>
-        <div className="  px-24">
+      </div>
+      <div className="max-w-7xl mx-auto">
+        <div className="  ">
           <h3 className="text-4xl my-12 font-bold dark:text-primary text-secondary text-center ">
           What makes us The Best Private Equity Consulting Firm in India?
           </h3>
         </div>
         <Card hover cardData={Makes} />
       </div>
-      <div className="px-24">
+      <div className="max-w-7xl mx-auto mb-10">
 
       <WhatWeDo/>
       </div>
