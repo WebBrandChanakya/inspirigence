@@ -11,7 +11,7 @@ const teamMembers = [
     image: "/images/team/ashish-jain.jpg",
     link: "#",
     linkedin:"https://www.linkedin.com/in/ashishgangwal/",
-    details: "CA Ashish Jain is a qualified Chartered Accountant with more than 20 years of experience in Mutual Fund Accounting, Portfolio Management System (PMS) Accounting, Alternative Investment Funds (AIF) Accounting, and Hedge Fund Accounting. He is the managing partner of Inspirigence Advisors LLP. He has worked with Deutsche Bank(DB) as a Head of Fund Services and handled Fund Accounting for various domestic AMCs like Nippon India MF, IIFL MF, and AIF, ICICI Pru PMS, Birla Sunlife MF and PMS, IDFC MF, Invesco MF, etc. He has also worked with various Financial Services organizations like Capita UK, State Street, Morgan Stanley, and Kotak Life Insurance. He has got experience in the calculation of daily NAVs and preparation of financial statements for Mutual Funds, Portfolio Management Services (PMS), AIFs, Insurance, and Pension funds.",
+    details: "CA Ashish Jain is a qualified Chartered Accountant, IIM, ISB and Investment Operating Certificate (IOC) from London. He is having more than 25 years of experience in Investment Banking, Business Consulting, Fund Accounting and Fund Administration, Portfolio Management System (PMS), Alternative Investment Funds (AIF) and Hedge Fund Accounting. He is the managing partner of Inspirigence Advisors LLP and Ex Deutsche Bank(DB), Capita, State Street, Morgan Stanley, and Kotak.",
   },
   {
     name: "CA Virendra Jain",
@@ -62,7 +62,7 @@ const Team = () => {
                 </p>
                 <button
                   onClick={() => setSelectedMember(member)}
-                  className="bg-primary hover:scale-95 transition-all duration-100 transform text-white rounded w-1/3 p-3 text-sm mt-2 block"
+                  className="bg-min hover:scale-95 transition-all duration-100 transform text-white rounded w-1/3 p-3 text-sm mt-2 block"
                 >
                   Know More
                 </button>

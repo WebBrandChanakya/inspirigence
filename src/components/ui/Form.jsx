@@ -112,7 +112,7 @@ const Form = () => {
       {/* Submit Button */}
       <button
         type="submit"
-        className="w-full mt-6 bg-primary text-white p-3 rounded-lg text-lg font-semibold hover:scale-95 transition-all"
+        className="w-full mt-6 bg-secondary text-white p-3 rounded-lg text-lg font-semibold hover:scale-95 transition-all"
       >
         Submit
       </button>

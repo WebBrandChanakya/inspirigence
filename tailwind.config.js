@@ -13,9 +13,17 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        primary: "#2cbc64", // Replace with your desired color
+        primary: "#023a51", // Replace with your desired color
         secondary: "#023a51",
-        primarybg: "#2cbc6410" // Replace with your desired color
+        min: "#2cbc64",
+        primarybg: "#023a5110", // Replace with your desired color
+        darkLvl1: "#121212", // For Dark Mode Body Background
+        darkLvl2: "#282828", // For Dark Mode Cards Background
+        darkLvl3: "#3f3f3f", // For chips buttons, dropdowns background color
+        darkLvl4: "#575757", // For sidebars, navbar background color
+        darkLvl5: "#717171",
+        darkLvl6: "#8b8b8b",
+        darkLvl7: "#D0D0D0",
       },
     },
   },

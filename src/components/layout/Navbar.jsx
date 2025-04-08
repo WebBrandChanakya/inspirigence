@@ -51,7 +51,7 @@ const Navbar = () => {
                                         >
                                             {link.label} <FiChevronDown size={16} className="ml-1" />
                                         </Link>
-                                        <div className={`absolute left-0 space-x-4  bg-white border  dark:bg-primary overflow-hidden shadow-lg rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}
+                                        <div className={`absolute -left-1/3 space-x-4  bg-white border  dark:bg-primary overflow-hidden shadow-lg rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}
                                             onMouseEnter={() => setDropdownOpen(true)}
                                             onMouseLeave={() => setDropdownOpen(false)}
                                            >
@@ -63,7 +63,7 @@ const Navbar = () => {
                                                     </Link>
                                                     
                                                     <li>
-                                                        {subLink.subServices.map((subService)=>{
+                                                        {subLink.subServices&&subLink.subServices.map((subService)=>{
                                                             return (
                                                             <Link href={subService.href} className="block px-4 py-2 text-nowrap text-gray-700 dark:text-gray-50 dark:hover:text-secondary hover:text-primary ">
                                                                 {subService.label}

@@ -11,9 +11,9 @@ const SideCard = ({ cardData }) => {
         >
           <div>
 
-          <AiFillCheckCircle className="text-primary text-3xl my-3"/>
+          <AiFillCheckCircle className="text-min text-3xl my-3"/>
           </div>
-          <h5 className="mu-3 text-lg font-semibold text-gray-900 dark:text-white text-center">
+          <h5 className="text-lg font-semibold text-gray-900 dark:text-white text-center">
             {item}
           </h5>
         </div>

@@ -112,27 +112,27 @@ export const Advantages = [
 
 export const How = [
   {
-    icon: <FaDollarSign className="text-green-600 text-3xl" />,
+    icon: <FaDollarSign color="#2cbc64" className="text-green-600 dark:text-min text-3xl" />,
     text: "Create a true and clear investment proposal as well as a strategic justification for the IPO listing.",
   },
   {
-    icon: <FaHandshake className="text-green-600 text-3xl" />,
+    icon: <FaHandshake  color="#2cbc64" className="text-green-600 text-3xl" />,
     text: "Create an IPO rollout strategy that specifies communications-related actions and responsibilities.",
   },
   {
-    icon: <FaProjectDiagram className="text-green-600 text-3xl" />,
+    icon: <FaProjectDiagram  color="#2cbc64" className="text-green-600 text-3xl" />,
     text: "Create an investor relations architecture and inquiry processing methods.",
   },
   {
-    icon: <FaClipboardList className="text-green-600 text-3xl" />,
+    icon: <FaClipboardList  color="#2cbc64" className="text-green-600 text-3xl" />,
     text: "Develop and improve disclosure and reporting procedures.",
   },
   {
-    icon: <FaMobileAlt className="text-green-600 text-3xl" />,
+    icon: <FaMobileAlt  color="#2cbc64" className="text-green-600 text-3xl" />,
     text: "Get prepared for the first earnings call.",
   },
   {
-    icon: <FaCalendarCheck className="text-green-600 text-3xl" />,
+    icon: <FaCalendarCheck  color="#2cbc64" className="text-green-600 text-3xl" />,
     text: "Make arrangements for listing day coverage and event assistance.",
   },
 ];

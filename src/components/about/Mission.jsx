@@ -27,7 +27,7 @@ const Mission = () => {
       <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
         <div className="w-full flex-col justify-center items-start gap-8 flex">
           <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex px-16">
-            <h3 className="text-primary  text-2xl font-bold font-manrope leading-normal lg:text-start text-center">
+            <h3 className="text-min  text-2xl font-bold font-manrope leading-normal lg:text-start text-center">
             Our Mission
             </h3>
             <h2 className="text-secondary dark:text-white  text-4xl font-bold font-manrope leading-normal lg:text-start text-center">

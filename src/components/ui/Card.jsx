@@ -7,7 +7,7 @@ const Card = ({ cardData, btn, hover }) => {
             {cardData.map((card, index) => (
                 <div key={index} className="relative flex h-full w-full py-5 flex-col justify-center ">
                     <div
-                        className={`${hover? 'group':""} h-full w-full relative cursor-pointer overflow-hidden bg-white dark:bg-primarybg px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto ${cardData.length == 2 || cardData.length == 4 ? "sm:max-w-lg" : "sm:max-w-sm"}  sm:rounded-lg sm:px-10 
+                        className={`${hover? 'group':""} h-full w-full relative ${btn?"cursor-pointer":""} overflow-hidden bg-white dark:bg-primarybg px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto ${cardData.length == 2 || cardData.length == 4 ? "sm:max-w-lg" : "sm:max-w-sm"}  sm:rounded-lg sm:px-10 
                          transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl `}
                     >
                         <span
@@ -45,7 +45,7 @@ const Card = ({ cardData, btn, hover }) => {
                                     <p>
                                         <Link
                                             href={card.link}
-                                            className={`text-primary ${hover ? "transition-all duration-300 group-hover:text-white" : ""}`}
+                                            className={`text-primary dark:text-white ${hover ? "transition-all duration-300 group-hover:text-white" : ""}`}
                                         >
                                             Learn More →
                                         </Link>

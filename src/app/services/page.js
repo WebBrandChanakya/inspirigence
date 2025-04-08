@@ -22,3 +22,8 @@ const page = () => {
 };
 
 export default page;
+
+export const metadata = {
+  title: 'Services - Inspirigence Advisors',
+  description: 'Accounting Trade, Position and Cash Reconciliation Portfolio Valuation, Trade processing, Fund Accounting, Learn more ,Advisory Fund launch, establishment, Administration and accounting Plan and implement strategy for the business set up',
+}

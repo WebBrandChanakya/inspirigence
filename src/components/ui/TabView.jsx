@@ -10,11 +10,11 @@ const TabView = ({tabs ,heading}) => {
     <div className=" mx-auto  py-12  h-60 bg-primary mb-40">
       <div className="max-w-7xl mx-auto">
       <h2 className="text-4xl font-semibold text-white text-center mb-8">{heading}</h2>
-      <div className="flex border-b dark:border-primary">
+      <div className="flex border-b dark:border-primary border">
         {tabs.map((tab, index) => (
           <button
             key={index}
-            className={`flex-1 p-3 text-center font-medium ${
+            className={`flex-1 p-3 border text-center font-medium ${
               activeTab === index ? "bg-green-600 text-white" : "bg-secondary dark:text-gray-200 text-gray-100"
             }`}
             onClick={() => setActiveTab(index)}

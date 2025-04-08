@@ -12,44 +12,69 @@ const page = () => {
   return (
     <>
       <PageBanner data={"Contact Us"} />
-      <section className=" bg-white dark:bg-secondary ">
+      <section className=" bg-white dark:bg-darkLvl1 ">
         {/* Contact Info & Social Media Section */}
         <div className="md:px-20 bg-primarybg items-center flex space-y-10 flex-col-reverse md:flex-row justify-center mx-auto w-full md:p-10  ">
           {/* Left Section */}
           <div className="pb-28 px-10 ">
             <div className="space-y-4">
               <div className="max-w-7xl mx-auto mb-8">
-                <h2 className="text-3xl font-bold text-secondary dark:text-white">Get In Touch</h2>
+                <h2 className="text-3xl font-bold text-secondary dark:text-white">
+                  Get In Touch
+                </h2>
                 <p className="mt-2 text-gray-600 dark:text-gray-300">
-                For any assistance, please reach out to us. Submit your queries here, and <br/>we will get back to you within two to three working days
+                  For any assistance, please reach out to us. Submit your
+                  queries here, and <br />
+                  we will get back to you within two to three working days
                 </p>
               </div>
-              {ContactLinks.links.map((link, index) => (
-                <Link
-                  className="text-secondary  dark:text-white block"
-                  href={link.href}
-                  key={index}
-                >
-                  {link.label}
-                </Link>
-              ))}
+              {ContactLinks.links.map((link, index) =>
+                link.href ? (
+                  <Link
+                    key={index}
+                    className="text-secondary dark:text-white block"
+                    href={link.href}
+                  >
+                    {link.label}
+                  </Link>
+                ) : (
+                  <div
+                    key={index}
+                    className="text-secondary dark:text-white  lg:w-4/6"
+                  >
+                    {link.label}
+                  </div>
+                )
+              )}
             </div>
 
             {/* Social Media Icons */}
             <div className="flex mt-4 space-x-4  ">
-            <Link href={Follow.Instagram} className="w-8 h-8 flex justify-center items-center bg-primary rounded-full">
-              <FaInstagram className="text-white text-lg" />
-            </Link>
-            <Link href={Follow.Twitter} className="w-8 h-8 flex justify-center items-center bg-primary rounded-full ">
-              <FaXTwitter className="text-white text-lg" />
-            </Link>
-            <Link href={Follow.Facebook} className="w-8 h-8 flex justify-center items-center bg-primary rounded-full ">
-              <FaFacebookF className="text-white text-lg" />
-            </Link>
-            <Link href={Follow.LinkedIn} className="w-8 h-8 flex justify-center items-center bg-primary rounded-full ">
-              <FaLinkedin className="text-white text-lg" />
-            </Link>
-          </div>
+              <Link
+                href={Follow.Instagram}
+                className="w-8 h-8 flex justify-center items-center bg-primary rounded-full"
+              >
+                <FaInstagram className="text-white text-lg" />
+              </Link>
+              <Link
+                href={Follow.Twitter}
+                className="w-8 h-8 flex justify-center items-center bg-primary rounded-full "
+              >
+                <FaXTwitter className="text-white text-lg" />
+              </Link>
+              <Link
+                href={Follow.Facebook}
+                className="w-8 h-8 flex justify-center items-center bg-primary rounded-full "
+              >
+                <FaFacebookF className="text-white text-lg" />
+              </Link>
+              <Link
+                href={Follow.LinkedIn}
+                className="w-8 h-8 flex justify-center items-center bg-primary rounded-full "
+              >
+                <FaLinkedin className="text-white text-lg" />
+              </Link>
+            </div>
           </div>
 
           {/* Right Section */}

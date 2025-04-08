@@ -6,7 +6,7 @@ import { Data, points } from "@/content/NAV";
 const page = () => {
   return (
     <div className="bg-white dark:bg-secondary">
-      <PageBanner data={"NAV Administration Services"} />
+      <PageBanner data={"Fund Administration Services"} />
       <About data={Data} />
       <div className="bg-secondary">
       <div className=" text-white py-12 max-w-7xl mx-auto border-b">

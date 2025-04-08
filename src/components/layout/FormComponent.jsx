@@ -40,7 +40,7 @@ const FormComponent = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center col-span-2 rounded-tr-xl rounded-br-xl pl-24 bg- py-24 lg:mb-0 mb-10 dark:bg-secondary bg-white">
+                    <div className="flex items-center col-span-2 rounded-tr-xl rounded-br-xl pl-24 bg- py-24 lg:mb-0 mb-10 dark:bg-darkLvl1 bg-white">
                         <div className="pl-8  w-3/4 " >
 
                             <h4 className="text-gray-900 dark:text-white font-manrope text-4xl font-semibold leading-10 mb-9 lg:text-left text-center">

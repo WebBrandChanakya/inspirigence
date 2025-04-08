@@ -10,7 +10,7 @@ export default function CTA({ title, description, subtext, buttonText, buttonLin
           {subtext && <p className="mb-6 font-semibold">{subtext}</p>}
           {buttonText && buttonLink && (
             <div className="flex items-center gap-2">
-              <Link className='bg-secondary hover:scale-95 transition-all duration-100 transform p-5 text-white rounded-xl' href={buttonLink}>{buttonText}</Link>
+              <Link className='bg-min hover:scale-95 transition-all duration-100 transform p-5 text-white rounded-xl' href={buttonLink}>{buttonText}</Link>
             </div>
           )}
         </div>

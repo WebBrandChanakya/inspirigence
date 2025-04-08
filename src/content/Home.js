@@ -8,9 +8,14 @@ import {
 } from "react-icons/fa";
 export const services = [
   {
-    name: <>Investment Banking</>,
+    name: <>Investment <br/>Banking</>,
     icon: <FaCheckCircle className="text-3xl text-white" />,
     link: "/services/investment-banking-advisors",
+  },
+  {
+    name: <>Capital Market Advisory</>,
+    icon: <FaChartLine className="text-3xl text-white" />,
+    link: "/services/capital-market",
   },
 
   {
@@ -19,16 +24,17 @@ export const services = [
     link: "/services/compliance",
   },
   {
-    name: <>Capital Market Advisory</>,
-    icon: <FaChartLine className="text-3xl text-white" />,
-    link: "/services/capital-market",
+    name: <>Business Consulting</>,
+    icon: <FaDollarSign className="text-3xl text-white" />,
+    link: "/services/compliance",
   },
+ 
 ];
-
+ 
 export const aboutData = {
   companyName: "Inspirigence",
   description1:
-    "Inspirigence Advisors is a popular name among the top financial service providers in India, offering various services with unmatched expertise such as; Fund Accounting, Fund Administration, Regulatory compliance, Accounting services, Virtual CFO, Investor Relationships, and Advisory services. With a focus on serving various clients, including private equity/hedge funds, business entities, and corporates, we offer tailored solutions to meet their unique needs. At Inspirigence, our team consists of experienced professionals, including qualified accountants, company secretaries, legal experts, and financial professionals. We provide comprehensive financial advisory services, leveraging our expertise and industry insights to drive our clients’ success. ",
+    "Inspirigence Advisors is a popular name among the top financial service providers in India, offering various services with unmatched expertise such as; IPO Advisory, Merger and Acquisition, Business Consulting, Distress Asset Resolution, Fund accounting and Fund Administration, Regulatory Compliances, Investor Relationships, and Advisory services. With a focus on serving various clients, including private equity/hedge funds, business entities and corporates, we offer tailored solutions to meet their unique needs. At Inspirigence, our team consists of experienced professionals, including qualified Accountants, Company Secretaries, Legal experts, and Finance Professionals. We provide comprehensive Financial Advisory Services, leveraging our expertise and industry insights to drive our clients’ success.",
   description2:
     "We are committed to delivering excellence to our clients, empowering businesses to thrive in today’s dynamic marketplace.",
   imageSrc: "/images/home/about.webp",

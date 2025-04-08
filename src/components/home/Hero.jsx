@@ -13,10 +13,10 @@ const Hero = () => {
 
                             <h1 className="lg:py-8 text-xl text-center text-gray-900 dark:text-gray-50 font-bold font-manrope  lg:text-5xl lg:text-left lg:leading-[70px]">
                                 We care for your transactions at {" "}
-                                <span className="text-primary">Inspirigence</span>
+                                <span className="text-primary dark:text-white">Inspirigence</span>
                             </h1>
                             <p className=" text-gray-0 dark:text-white text-black lg:text-lg text-center lg:text-left">
-                                Inspirigence Advisors is a leading financial service provider in India, offering expert solutions in fund accounting, administration, compliance, advisory, and more.
+                            Inspirigence Advisors is a leading financial service provider in India, offering expert solutions for IPO Advisory, Merger and Acquisition, Distress Asset Resolution, Fund accounting and Fund Administration, Compliances and more.
                             </p>
                             <div className="relative my-10  flex  items-center  justify-between  ">
                                 <ContactBtn/>

@@ -18,24 +18,24 @@ import {
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-secondary scroll-smooth">
+    <div className="bg-white dark:bg-darkLvl1 scroll-smooth">
       <Hero />
       <About data={aboutData} />
       <div className=" ">
-        <div className=" flex flex-col-reverse lg:flex-row max-w-7xl mx-auto items-center space-x-2 ">
+        <div className=" flex py-12 flex-col-reverse lg:flex-row max-w-7xl mx-auto items-center space-x-2 ">
           <div className="h-full flex  items-center">
             <Image
-              className="mt-20"
+              className="mt"
               width={1400}
               height={1400}
-              src="/images/home/dashboard.webp"
+              src="/images/home/services.png"
             />
           </div>
           <div className="flex flex-col w-full pt-12 lg:pt-0 items-center">
-            <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center">
+            <h3 className="text-4xl font-bold dark:text-white text-primary text-center">
               Our Core Services
             </h3>
-            <Box data={services} size />
+            <Box data={services}  />
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ export default function Home() {
 
    
       <div className=" py-14 max-w-7xl mx-auto ">
-        <h3 className="text-4xl   font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl   font-bold dark:text-white text-secondary text-center mb-10">
           Expert-Led Financial Services
         </h3>
         <Card cardData={SubServices} btn hover />
@@ -53,8 +53,8 @@ export default function Home() {
         <CTA {...ctaData} />
       </div>
       <div className="bg-primarybg">
-        <div className="max-w-7xl mx-auto pt-4 lg:pt-20 l4 relative ">
-          <div className="bg-white dark:bg-secondary px-2 z-10 py-4  lg:p-14 rounded-lg shadow2xl">
+        <div className="max-w-7xl mx-auto pt-4 lg:pt-20  relative ">
+          <div className="bg-white dark:bg-secondary px-2 z-10 py-4  lg:p-8 rounded-lg shadow2xl">
             <h3 className="lg:text-4xl text-xl font-bold dark:text-primary text-secondary text-center mb-4 lg:mb-10">
               Empowering Businesses through transaction support and improvising
               outcomes.

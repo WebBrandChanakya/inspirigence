@@ -115,5 +115,5 @@ export const ctaData = {
   description: "Our team will assess your needs, answer your questions, and provide valuable insights tailored to your unique situation. Don't miss this opportunity to gain expert advice at no cost—schedule your free consultation today and move forward with confidence!",
   buttonText: "Free Consultation",
   buttonLink: "#quote",
-  imageSrc: "/images/home/cta.webp",
+  imageSrc: "/images/services/services-cta.jpg",
 };

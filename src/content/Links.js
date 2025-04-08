@@ -34,14 +34,6 @@ export const LinksData = [
             label: "Capital Market",
             subServices: [
               {
-                href: "/nav-administration-services",
-                label: "NAV administration Services",
-              },
-              {
-                href: "/backoffice-middle-office-services",
-                label: "Back Office & Middle Office Services",
-              },
-              {
                 href: "/alternative-investment-fund-advisors-in-india",
                 label: " Alternative Fund Advisors (AIFs)",
               },
@@ -50,13 +42,21 @@ export const LinksData = [
                 label: " Portfolio Management Service",
               },
               {
+                href: "/nav-administration-services",
+                label: "Fund Administration/Fund Accounting Services",
+              },
+              {
                 href: "/investor-relationship-services",
                 label: " Investor Relationship Services",
               },
-              {
-                href: "/fund-accounting-company-in-india/",
-                label: "Fund Accounting Company",
-              },
+              // {
+              //   href: "/backoffice-middle-office-services",
+              //   label: "Back Office & Middle Office Services",
+              // },
+              // {
+              //   href: "/fund-accounting-company-in-india/",
+              //   label: "Fund Accounting Company",
+              // },
             ],
           },
           {
@@ -65,7 +65,7 @@ export const LinksData = [
             subServices: [
               {
                 href: "/regulatory-reporting-compliance-services",
-                label: "Regulatory reporting & Compliance Services",
+                label: "Regulatory Reporting & Compliance Services",
               },
               {
                 href: "/registration-services",
@@ -73,6 +73,11 @@ export const LinksData = [
               },
               { href: "/cyber-security", label: "Cyber Security " },
             ],
+          },
+          {
+            href: "/services/business-consulting",
+            label: "Business Consulting",
+           
           },
         ],
       },
@@ -84,12 +89,15 @@ export const LinksData = [
   {
     title: "Services",
     links: [
-      { href: "/ipo-advisory-service-in-india", label: "IPO Advisory" },
-      { href: "/corporate-due-diligence-services-in-india", label: "Corporate Due Diligence" },
-      { href: "/merger-and-acquisition-consultant", label: "M&A Consulting Services" },
-      { href: "/fund-accounting-company-in-india/", label: "Fund Accounting" },
-      { href: "/alternative-investment-fund-advisors-in-india", label: "Alternative Fund Advisors" },
-      { href: "/portfolio-management-service", label: "Portfolio Management Service" },
+      {  href: "/services/investment-banking-advisors",
+      label: "Investment Banking" },
+      { href: "/services/capital-market",
+      label: "Capital Market", },
+      {  href: "/services/compliance",
+      label: "Compliance",},
+      {  href: "/services/investment-banking-advisors",
+      label: "Business Consulting" },
+     
     ],
   },
   {
@@ -120,14 +128,14 @@ export const LinksData = [
         ),
       },
       {
-        href: "https://goo.gl/maps/xyz",
+        // href: "https://goo.gl/maps/xyz",
         label: (
           <div className="flex items-start space-x-2">
-            <FaMapMarkerAlt className="text-lg mt-1" />{" "}
+            <div>
+                          <FaMapMarkerAlt className="text-lg mt-1" />{" "}
+              </div>
             <span>
-              The Summit Business Bay,
-              <br />
-              Gundavali, Andheri-East, 400093,Mumbai, Maharashtra
+            414A, B-wing, Kanakia Wall Street.Opposite Vijay Sales, Andheri - Kurla Rd, Chakala, Andheri East, Mumbai, Maharashtra 400059
             </span>
           </div>
         ),

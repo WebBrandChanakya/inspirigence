@@ -25,7 +25,7 @@ function IPOLaunch({ipoData}) {
 
       {/* Text Content Section */}
       <div className="md:w-1/2">
-        <h2 className="text-4xl font-bold text-green-600">
+        <h2 className="text-4xl font-bold text-secondary">
         {ipoData.heading}
         </h2>
 

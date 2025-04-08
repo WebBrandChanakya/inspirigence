@@ -10,7 +10,7 @@ const PageBanner = ({ data }) => {
                     <li class="flex cursor-pointer items-center text-sm text-white transition-colors duration-300">
                         <Link
                             href="/"
-                            class="px-3 py-1 hover:text-primary"
+                            class="px-3 py-1 hover:text-white"
                         >
                             Home
                         </Link>
@@ -21,7 +21,7 @@ const PageBanner = ({ data }) => {
                     <li class="flex cursor-pointer items-center text-sm text-white transition-colors duration-300">
                         <Link
                             href="#"
-                            class="px-3 py-1 hover:text-primary"
+                            class="px-3 py-1 text-white hover:text-white"
                         >
                             {data}
                         </Link>

@@ -21,7 +21,7 @@ const Features = () => {
                         .filter((feature) => feature.position === "left")
                         .map((feature, index) => (
                             <div key={index} className="flex items-center lg:justify-end gap-1">
-                                <div className="p-4 bg-primary text-white rounded-full shadow-lg">
+                                <div className="p-4 bg-secondary text-white rounded-full shadow-lg">
                                     {feature.icon}
                                 </div>
                                 <h4 className="font-bold dark:text-white text-gray-900">{feature.title}</h4>
@@ -47,7 +47,7 @@ const Features = () => {
                         .map((feature, index) => (
                             <div key={index} className="flex flex-row-reverse lg:flex-row items-center gap-1">
                                 <h4 className=" font-bold text-gray-900 dark:text-white">{feature.title}</h4>
-                                <div className="p-4 bg-primary text-white rounded-full shadow-lg">
+                                <div className="p-4 bg-secondary text-white rounded-full shadow-lg">
                                     {feature.icon}
                                 </div>
                             </div>

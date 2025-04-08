@@ -34,7 +34,7 @@ const page = () => {
       </div>
       <MAConsulting
         services={services}
-        heading={"Our Merger and Acquisition Consultant Services"}
+        heading={"Our Merger and Acquisition Consultation Services"}
       />
       <TabView
         tabs={tabs}

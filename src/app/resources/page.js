@@ -30,9 +30,9 @@ const page = () => {
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
           We bring you the best possible solutions for your business
         </h3>
-        <Card cardData={SubServices} />
+        <Card cardData={SubServices} btn/>
       </div>
-      <div className="py-20  max-w-7xl mx-auto bg-primarybg">
+      <div className="py-20  max-w-7xl mx-auto ">
         <CTA {...ctaData} />
       </div>
       <FormComponent />

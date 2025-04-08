@@ -13,7 +13,7 @@ const About = ({ data }) => {
             <div className="lg:w-1/2 flex flex-col space-y-4">
               {data.companyName&&<h2 className=" text-center text-gray-900 dark:text-gray-50 font-bold font-manrope text-xl lg:text-5xl lg:text-left lg:leading-[70px]">
                 Overview of{" "}
-                <span className="text-primary">{data.companyName}</span>
+                <span className="text-primary dark:text-white">{data.companyName}</span>
               </h2>}
               {data.heading&&<h2 className="py-4 text-center text-gray-900 dark:text-gray-50 font-bold font-manrope text-xl lg:text-5xl lg:text-left ">
                {data.heading}

@@ -20,7 +20,7 @@ const info = [
 const page = () => {
   return (
     <div className="bg-white dark:bg-secondary">
-      <PageBanner data={"Regulatory reporting & Compliance Services"} />
+      <PageBanner data={"Regulatory Reporting & Compliance Services"} />
       <About data={Data} />
       <div className="py-14  max-w-7xl mx-auto">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
@@ -52,7 +52,7 @@ const page = () => {
       </div>
       <div className="py-14 px-28 bg-primary ">
         <div className=" max-w-7xl mx-auto">
-          <h3 className="text-4xl font-bold  text-secondary text-center mb-10">
+          <h3 className="text-4xl font-bold  text-white text-center mb-10">
             What Are The Challenges That Come With Regulatory Compliance?
           </h3>
           <p className="px-6 text-center text-white  lg:text-left">

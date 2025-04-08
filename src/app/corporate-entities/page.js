@@ -27,3 +27,9 @@ const page = () => {
 };
 
 export default page;
+
+
+export const metadata = {
+  title: 'Corporate Entities - Inspirigence Advisors',
+  description: 'Serving the Corporate Entities',
+}
