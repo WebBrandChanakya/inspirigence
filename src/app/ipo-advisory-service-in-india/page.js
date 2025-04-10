@@ -18,11 +18,12 @@ import CTA from "@/components/ui/CTA";
 import FAQ from "@/components/ui/FAQ";
 import MAConsulting from "@/components/services/MAConsulting";
 import IPOLaunch from "@/components/services/IPOLaunch";
+import Link from "next/link";
 export const ctaData = {
   title: "Partner With Inspirigence Advisors For A Successful IPO Launch",
   description:"Our expert team provides end-to-end support, ensuring a smooth and successful transition to the public markets. With a proven track record of helping businesses maximize valuation and attract the right investors, we are your trusted partner for IPO success.",
   subtext:" Partner with Inspirigence Advisors today and take your company to new heights!",
-  buttonText: "Book Your Consultation",
+  buttonText: "Get A Free Consultation",
   buttonLink: "#quote",
   imageSrc: "/images/services/cta.jpg",
 };
@@ -31,9 +32,9 @@ const data = [
     title: "Disclosures",
     content: [
       `“The Company has not been submitted to the 
-        <a href="https://en.wikipedia.org/wiki/Board_for_Industrial_and_Financial_Reconstruction" class=" font-semibold hover:underline">
+        <Link href="https://en.wikipedia.org/wiki/Board_for_Industrial_and_Financial_Reconstruction" class=" font-semibold hover:underline">
           Board of Industrial and Financial Reconstruction (BIFR)
-        </a>.”
+        </Link>.”
         It is permissible for a corporation to be out of BIFR.`,
       "No winding-up petition has been allowed by the court against the firm, and no liquidator has been appointed.",
     ],
@@ -45,9 +46,9 @@ const data = [
       "The business must support demat securities trading and engage in an arrangement with both depositories.",
       "There should be no change in the owners of the firm within one year of filing the application to BSE for registration under the SME sector.",
       `<strong>Also Read – </strong>
-        <a href="/how-to-determine-if-your-business-is-ready-to-launch-an-ipo/" class=" font-semibold hover:underline">
+        <Link href="/how-to-determine-if-your-business-is-ready-to-launch-an-ipo/" class=" font-semibold hover:underline">
           How to determine if your business is ready to launch an IPO?
-        </a>`,
+        </Link>`,
     ],
   },
 ];
@@ -65,17 +66,18 @@ const info = [
     ],
   },
 ];
+
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Best IPO Advisory Service in India"} />
       <About data={Data} />
-      <div className="max-w-7xl mx-auto">
-        <IPOLaunch ipoData={ipoData} />
+      <div className="max-w-7xl mx-auto py-12">
+        <IPOLaunch dark ipoData={ipoData} />
       </div>
       <div className="max-w-7xl mx-auto">
         <div className=" pt-18 ">
-          <h3 className="text-4xl py-6 font-bold dark:text-primary text-secondary text-center ">
+          <h3 className="text-4xl py-6 font-bold dark:text-white text-secondary text-center ">
             Why Choose Inspirigence Advisors For IPO Consultation in India
           </h3>
           <p className="px-6 text-center dark:text-white text-black mb-10 ">
@@ -86,7 +88,7 @@ const page = () => {
             for fostering substantial growth.
           </p>
 
-          <h5 className="text-xl font-bold dark:text-primary text-secondary text-center mb-10">
+          <h5 className="text-xl font-bold dark:text-gray-100 text-secondary text-center mb-10">
             Here are several key factors highlighting why Inspirigence is the
             optimal choice for your consultancy needs –
           </h5>
@@ -94,7 +96,7 @@ const page = () => {
         <Card hover cardData={Why} />
       </div>
 
-      <div className="py-14  bg-primary">
+      <div className="py-14  bg-primary dark:bg-darkLvl2">
         <div className="max-w-7xl mx-auto">
 
         <h3 className="text-4xl font-bold text-white text-center mb-10">
@@ -110,8 +112,8 @@ const page = () => {
       />
       <div className="bg-primarybg">
         <div className=" max-w-7xl mx-auto  pt-4 lg:pt-20  relative ">
-          <div className="bg-white dark:bg-secondary px-8 z-10 py-4  lg:py-14 rounded-lg shadow2xl">
-            <h3 className="lg:text-4xl text-xl font-bold dark:text-primary text-secondary text-center mb-4 lg:mb-10">
+          <div className="bg-white dark:bg-darkLvl1 px-8 z-10 py-4  lg:py-14 rounded-lg shadow2xl">
+            <h3 className="lg:text-4xl text-xl font-bold dark:text-white text-secondary text-center mb-4 lg:mb-10">
               IPO Advisory Services Which Comprise The Following:
             </h3>
             <Card cardData={Services} />
@@ -125,7 +127,7 @@ const page = () => {
         <InfoBoxes data={data} />
         </div>
       </div>
-      <div className="py-14  bg-secondary">
+      <div className="py-14  bg-secondary dark:bg-darkLvl2">
         <div className="max-w-7xl mx-auto">
 
         

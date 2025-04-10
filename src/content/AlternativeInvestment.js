@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   FaCogs,
   FaSlidersH,
@@ -21,7 +22,7 @@ export const Understanding = {
   images: [
     {
       id: 1,
-      src: "/images/home/hero-img.png",
+      src: "/images/services/aif-funds.png",
       alt: "IPO Consultation",
       width: 600,
       height: 600,
@@ -57,12 +58,12 @@ export const tabs = [
           </li>
           <li>
             <strong>Strategy:</strong>{" "}
-            <a
+            <Link
               className="text-primary"
               href="https://medium.com/@inspirigence.advisors_35535/what-are-category-i-aifs-2300a8754c6b"
             >
               Category 1 AIFs
-            </a>{" "}
+            </Link>{" "}
             aim to foster growth in targeted sectors by providing capital and
             expertise.
           </li>

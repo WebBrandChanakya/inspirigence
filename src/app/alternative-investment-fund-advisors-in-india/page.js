@@ -20,14 +20,14 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Best Alternative Fund Advisors in India (AIF)"} />
       <About data={Data} />
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto py-12">
         <IPOLaunch ipoData={Understanding} />
       </div>
       <div className=" py-14 max-w-7xl mx-auto">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
           Key Features of AIFs
         </h3>
         <Card cardData={Features} />
@@ -35,8 +35,8 @@ const page = () => {
       <TabView tabs={tabs} heading={"Different Types Of AIF’s Available"} />
       <div className="bg-primarybg">
         <div className="  max-w-7xl mx-auto pt-4 lg:pt-20  relative ">
-          <div className="bg-white dark:bg-secondary  z-10 py-4  lg:py-14 px-14 rounded-lg shadow2xl">
-            <h3 className="lg:text-4xl text-xl font-bold dark:text-primary text-secondary text-center mb-4 lg:mb-10">
+          <div className="bg-white dark:bg-darkLvl1  z-10 py-4  lg:py-14 px-14 rounded-lg shadow2xl">
+            <h3 className="lg:text-4xl text-xl font-bold dark:text-white text-secondary text-center mb-4 lg:mb-10">
             Potential Benefits of AIFs
             </h3>
             <Card cardData={Potential } />

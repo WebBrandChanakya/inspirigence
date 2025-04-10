@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 export const Data = {
@@ -190,7 +191,7 @@ export const faqs = [
     question: "What comes after due diligence?",
     answer: (
       <span>
-        The term “<a href="https://en.wikipedia.org/wiki/Due_diligence"> due diligence </a> period” describes the length of time that
+        The term “<Link href="https://en.wikipedia.org/wiki/Due_diligence"> due diligence </Link> period” describes the length of time that
         parties to a contract concur to grant one another in order to conduct an
         audit, an inspection, or more research into the facts surrounding a
         transaction. After due diligence services in India, the buyer and seller

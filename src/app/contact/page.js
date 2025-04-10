@@ -14,9 +14,9 @@ const page = () => {
       <PageBanner data={"Contact Us"} />
       <section className=" bg-white dark:bg-darkLvl1 ">
         {/* Contact Info & Social Media Section */}
-        <div className="md:px-20 bg-primarybg items-center flex space-y-10 flex-col-reverse md:flex-row justify-center mx-auto w-full md:p-10  ">
+        <div className="py-12 items-center flex space-y-10 flex-col-reverse md:flex-row justify-center mx-auto w-full max-w-7xl ">
           {/* Left Section */}
-          <div className="pb-28 px-10 ">
+          <div className="pb-28">
             <div className="space-y-4">
               <div className="max-w-7xl mx-auto mb-8">
                 <h2 className="text-3xl font-bold text-secondary dark:text-white">
@@ -78,7 +78,7 @@ const page = () => {
           </div>
 
           {/* Right Section */}
-          <div className="bg-white dark:bg-secondary p-10 rounded-xl shadow-lg max-w-lg mx-auto md:mx-0">
+          <div className="bg-white dark:bg-darkLvl2 p-10 rounded-xl shadow-lg max-w-lg mx-auto md:mx-0">
             <h3 className="text-xl font-semibold mb-6 text-secondary dark:text-white">
               Send Us Message
             </h3>

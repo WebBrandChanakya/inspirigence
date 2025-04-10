@@ -4,6 +4,7 @@ import InfoBoxes from "@/components/services/InfoBoxes";
 import IPOConsulting from "@/components/services/IPOConsulting";
 import PageBanner from "@/components/ui/PageBanner";
 import { Data, strategy } from "@/content/RegulatoryServices";
+import Link from "next/link";
 import React from "react";
 const info = [
   {
@@ -19,11 +20,11 @@ const info = [
 
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Regulatory Reporting & Compliance Services"} />
       <About data={Data} />
       <div className="py-14  max-w-7xl mx-auto">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
           Why is Regulatory Compliance Important?
         </h3>
         <p className="px-6 text-center dark:text-white text-black lg:text-left">
@@ -50,7 +51,7 @@ const page = () => {
           to guarantee data security.
         </p>
       </div>
-      <div className="py-14 px-28 bg-primary ">
+      <div className="py-14 px-28 bg-primary dark:bg-darkLvl2 ">
         <div className=" max-w-7xl mx-auto">
           <h3 className="text-4xl font-bold  text-white text-center mb-10">
             What Are The Challenges That Come With Regulatory Compliance?
@@ -113,9 +114,9 @@ const page = () => {
           <InfoBoxes data={info} />
 
           <p className="px-6 text-center dark:text-white text-black  mt-10">
-            <a className="text-primary" href="https://inspirigence.in/">
+            <Link className="text-primary" href="https://inspirigence.in/">
               Inspirigence
-            </a>{" "}
+            </Link>{" "}
             provides you with top-tier consultancy for regulatory compliance
             services in India at various levels subject to your problems.
           </p>

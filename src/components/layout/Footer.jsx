@@ -6,7 +6,7 @@ import { FaFacebookF, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Follow, LinksData } from "@/content/Links";
 
 const Footer = () => (
-  <footer className=" bg-[#f5f5f5] dark:bg-secondary">
+  <footer className=" bg-[#f5f5f5] dark:bg-darkLvl2">
     <div className="mx-auto max-w-7xl  pt-10 ">
       <div className="grid grid-cols-2 pb-8 lg:grid-cols-5 gap-8">
         <div className="col-span-2 text-left">
@@ -22,7 +22,7 @@ const Footer = () => (
         </div>
         {LinksData.map((section, index) => (
           <div key={index} className="text-left col-span-2 lg:col-span-1">
-            <h4 className="text-lg text-secondary dark:text-primary font-medium mb-4">{section.title}</h4>
+            <h4 className="text-lg text-secondary dark:text-white font-medium mb-4">{section.title}</h4>
             <ul className="text-sm space-y-2">
               {section.links.map((item, i) => (
                 <li key={i}>

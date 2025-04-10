@@ -15,7 +15,7 @@ const TabView = ({tabs ,heading}) => {
           <button
             key={index}
             className={`flex-1 p-3 border text-center font-medium ${
-              activeTab === index ? "bg-green-600 text-white" : "bg-secondary dark:text-gray-200 text-gray-100"
+              activeTab === index ? "bg-min text-white" : "bg-darkLvl1 dark:text-gray-200 text-gray-100"
             }`}
             onClick={() => setActiveTab(index)}
           >
@@ -23,7 +23,7 @@ const TabView = ({tabs ,heading}) => {
           </button>
         ))}
       </div>
-      <div className="p-4  bg-white dark:bg-secondary border dark:border-primary rounded-b-lg">{tabs[activeTab].content}</div>
+      <div className="p-4  bg-white dark:bg-darkLvl2  rounded-b-lg">{tabs[activeTab].content}</div>
     </div>
     </div>
   );

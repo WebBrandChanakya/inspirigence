@@ -15,7 +15,7 @@ export const cardData = [
 
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Registration Services"} />
       <div className="py-14  max-w-7xl mx-auto">
         <p className="px-6 text-center text-lg dark:text-white text-black lg:text-left">

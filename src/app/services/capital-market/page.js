@@ -6,7 +6,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='bg-white dark:bg-secondary'>
+    <div className='bg-white dark:bg-darkLvl1'>
         <PageBanner data={"Capital Market"}/>
         <div className=" py-14 max-w-7xl mx-auto">
         <Card cardData={SubServices} btn hover/>

@@ -5,6 +5,7 @@ import React from "react";
 import InfoBoxes from "@/components/services/InfoBoxes";
 import MAConsulting from "@/components/services/MAConsulting";
 import FAQ from "@/components/ui/FAQ";
+import Link from "next/link";
 
 const Data = {
   heading: "Best Fund Accounting Company in India",
@@ -30,14 +31,15 @@ const Advantages = [
   {
     title: "Performance Measurement",
     description:<>
-      Precise performance measurement is vital for effective fund management. Inspirigence Advisors delivers dependable, accurate services for <a href="/nav-administration-services/">calculating Net Asset Value (NAV)</a> and other key performance indicators. Our expert team employs industry-standard methodologies and cutting-edge tools to provide timely, precise performance calculations. We conduct thorough performance attribution analyses, helping you pinpoint the factors driving your fund’s returns and identify potential areas for enhancement. Our comprehensive services cover a wide array of performance metrics, including time-weighted and money-weighted returns, benchmark comparisons, and risk-adjusted measures, offering a multifaceted view of your fund’s performance across various dimensions."</>,
+      Precise performance measurement is vital for effective fund management. Inspirigence Advisors delivers dependable, accurate services for <Link href="/nav-administration-services/">calculating Net Asset Value (NAV)</Link> and other key performance indicators. Our expert team employs industry-standard methodologies and cutting-edge tools to provide timely, precise performance calculations. We conduct thorough performance attribution analyses, helping you pinpoint the factors driving your fund’s returns and identify potential areas for enhancement. Our comprehensive services cover a wide array of performance metrics, including time-weighted and money-weighted returns, benchmark comparisons, and risk-adjusted measures, offering a multifaceted view of your fund’s performance across various dimensions."</>,
   },
   {
     title: "Regulatory Compliance",
     description:<>
-      Navigating the complex landscape of financial regulations is an essential aspect of fund management. As a top fund accounting company in India, Inspirigence Advisors is dedicated to ensuring your fund’s full compliance with all pertinent accounting and regulatory standards. Our team continuously monitors and adapts to the latest developments in financial reporting requirements, including<a href="https://www.investopedia.com/terms/g/gaap.asp"> Generally Accepted Accounting Principles (GAAP)</a>, International Financial Reporting Standards (IFRS), and the Alternative Investment Fund Managers Directive (AIFMD). With extensive experience managing compliance for diverse fund types across multiple jurisdictions, we assure you that your regulatory obligations are fulfilled with the utmost care and expertise."</>
+      Navigating the complex landscape of financial regulations is an essential aspect of fund management. As a top fund accounting company in India, Inspirigence Advisors is dedicated to ensuring your fund’s full compliance with all pertinent accounting and regulatory standards. Our team continuously monitors and adapts to the latest developments in financial reporting requirements, including<Link href="https://www.investopedia.com/terms/g/gaap.asp"> Generally Accepted Accounting Principles (GAAP)</Link>, International Financial Reporting Standards (IFRS), and the Alternative Investment Fund Managers Directive (AIFMD). With extensive experience managing compliance for diverse fund types across multiple jurisdictions, we assure you that your regulatory obligations are fulfilled with the utmost care and expertise."</>
   },
 ];
+
 
 const info = [
   {
@@ -59,7 +61,7 @@ const faqs = [
     question:
       "What are the benefits of outsourcing fund accounting services for startups?",
     answer:<>
-      Outsourcing fund accounting to specialized firms like Inspirigence Advisors offers significant <a href="/benefits-of-outsourced-fund-accounting">benefits for startups</a>. It allows founders to focus on core business activities such as growth strategies and investor relations, while experts manage the complexities of fund accounting. This approach enhances accuracy, streamlines operations, and reduces costs compared to building an in-house accounting team.  Additionally, outsourcing provides startups access to advanced technology and industry expertise that might otherwise be too costly to develop internally. It ensures compliance with ever-changing regulatory standards and aligns with best practices, enabling startups to operate efficiently and scale effectively in a competitive market.</>,
+      Outsourcing fund accounting to specialized firms like Inspirigence Advisors offers significant <Link href="/benefits-of-outsourced-fund-accounting">benefits for startups</Link>. It allows founders to focus on core business activities such as growth strategies and investor relations, while experts manage the complexities of fund accounting. This approach enhances accuracy, streamlines operations, and reduces costs compared to building an in-house accounting team.  Additionally, outsourcing provides startups access to advanced technology and industry expertise that might otherwise be too costly to develop internally. It ensures compliance with ever-changing regulatory standards and aligns with best practices, enabling startups to operate efficiently and scale effectively in a competitive market.</>,
   },
   {
     question:

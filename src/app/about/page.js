@@ -10,7 +10,7 @@ import Mission from "@/components/about/Mission";
 
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"About Us"} />
       <Mission />
       <div className=" flex max-w-7xl mx-auto py-16  items-center space-x-8">
@@ -23,7 +23,7 @@ const page = () => {
           />
         </div>
         <div className="flex flex-col items-center">
-          <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center">
+          <h3 className="text-4xl font-bold dark:text-white text-secondary text-center">
             Our Values
           </h3>
           <Box data={values}  size/>

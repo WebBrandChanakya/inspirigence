@@ -38,7 +38,7 @@ const Team = () => {
       <div className="mx-auto max-w-7xl py-12">
         {/* Section Title */}
         <div className="text-center">
-          <h2 className="text-secondary dark:text-gray-50 text-4xl font-bold">Meet our team</h2>
+          <h2 className="text-secondary dark:text-gray-50 text-4xl font-bold capitalize">Meet our team</h2>
         </div>
 
         {/* Team Members Grid */}
@@ -46,7 +46,7 @@ const Team = () => {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className="bg-[#f5f5f5] dark:bg-secondary shadow-xl p-3 border rounded-lg"
+              className="bg-[#f5f5f5] dark:bg-darkLvl2 shadow-xl p-3 border rounded-lg"
             >
               <Image
                 width={500}
@@ -56,7 +56,7 @@ const Team = () => {
                 className="w-full object-contain aspect-square object-top rounded-lg"
               />
               <div className="text-center flex justify-center flex-col items-center mt-4 mb-1">
-                <h4 className="text-base font-semibold text-primary">{member.name}</h4>
+                <h4 className="text-base font-semibold text-primary dark:text-white">{member.name}</h4>
                 <p className="text-xs mt-1 text-gray-800 dark:text-gray-300">
                   {member.qualification}
                 </p>
@@ -93,7 +93,7 @@ const Team = () => {
                 alt={selectedMember.name}
                 className="mx-auto rounded-full object-cover"
               />
-              <h3 className="text-xl font-bold text-primary mt-4">{selectedMember.name}</h3>
+              <h3 className="text-xl font-bold text-primary dark:text-white mt-4">{selectedMember.name}</h3>
               <p className="text-sm text-gray-700 dark:text-gray-300 mt-2">
                 {selectedMember.qualification}
               </p>

@@ -17,7 +17,7 @@ const MAConsulting = ({heading,services,para}) => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-secondary p-6 rounded-lg shadow border-b-4 border-primary"
+              className="bg-white dark:bg-darkLvl2 p-6 rounded-lg shadow border-b-4 border-primary"
             >
               <h3 className="font-semibold dark:text-gray-100 text-lg mb-2 text-gray-700">{service.title}</h3>
               <p className="text-gray-700 dark:text-gray-300">{service.description}</p>

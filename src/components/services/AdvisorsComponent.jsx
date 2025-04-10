@@ -1,12 +1,13 @@
 'use client';
 
+import Link from 'next/link';
 import React from 'react';
 
 const data = [
   {
     title: 'Expertise and Experience',
     content:(<>
-    Backed by a team of highly experienced professionals in the field of alternative investments, Inspirigence Advisors stands as the best Alternative Fund Advisor in India, delivering unmatched expertise.Our advisors possess a deep understanding of evolving market trends, the complex <a className='text-primary' href='/regulatory-landscape-for-aif-in-india/'>regulatory framework</a> of AIF’s, and sophisticated investment strategies.This knowledge allows us to craft customized solutions tailored to your specific financial objectives and risk tolerance. We excel at identifying lucrative opportunities, mitigating potential risks, and optimizing portfolio performance. Our team’s commitment to staying ahead of industry developments ensures that every recommendation is informed, strategic, and aligned with your long-term wealth creation goals.</>)
+    Backed by a team of highly experienced professionals in the field of alternative investments, Inspirigence Advisors stands as the best Alternative Fund Advisor in India, delivering unmatched expertise.Our advisors possess a deep understanding of evolving market trends, the complex <Link className='text-primary' href='/regulatory-landscape-for-aif-in-india/'>regulatory framework</Link> of AIF’s, and sophisticated investment strategies.This knowledge allows us to craft customized solutions tailored to your specific financial objectives and risk tolerance. We excel at identifying lucrative opportunities, mitigating potential risks, and optimizing portfolio performance. Our team’s commitment to staying ahead of industry developments ensures that every recommendation is informed, strategic, and aligned with your long-term wealth creation goals.</>)
   },
   {
     title: 'Comprehensive Services',
@@ -37,7 +38,7 @@ const AdvisorsComponent = () => {
       </p>
       {data.map((item, index) => (
         <div key={index} className="bg-primarybg shadow-md rounded-lg p-6 mb-6 border border-gray-200">
-          <h3 className="text-xl font-semibold text-primary mb-2">{item.title}</h3>
+          <h3 className="text-xl font-semibold text-primary dark:text-white mb-2">{item.title}</h3>
           <p className="text-gray-600 dark:text-gray-300">{item.content}</p>
         </div>
       ))}

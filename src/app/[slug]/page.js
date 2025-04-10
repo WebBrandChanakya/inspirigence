@@ -119,7 +119,7 @@ const BlogPage = () => {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen bg-white">
+      <div className="flex justify-center items-center h-screen bg-white dark:bg-darkLvl1">
         <div role="status">
           <svg
             aria-hidden="true"
@@ -144,7 +144,7 @@ const BlogPage = () => {
   }
 
   return (
-    <div className="flex flex-col bg-white dark:bg-secondary pb-24">
+    <div className="flex flex-col bg-white dark:bg-darkLvl1 pb-24">
 
 
       <div className="py-8 lg:px-24">
@@ -184,7 +184,7 @@ const BlogPage = () => {
 
           {/* Sidebar: Recent Posts */}
           <div className="w-full md:w-1/3 px-4">
-            <div className="bg-gray-100 dark:bg-primarybg lg:p-8 p-4 rounded-xl">
+            <div className="bg-gray-100 dark:bg-darkLvl2 lg:p-8 p-4 rounded-xl">
               <h2 className="text-xl font-bold text-gray-800 dark:text-white mb-4">
                 Recent Posts
               </h2>

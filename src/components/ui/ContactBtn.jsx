@@ -1,7 +1,7 @@
 "use client";
 
 
-export default function ContactBtn() {
+export default function ContactBtn({cta }) {
   const scrollToFooter = () => {
     const footer = document.getElementById("quote");
     if (footer) {
@@ -12,9 +12,8 @@ export default function ContactBtn() {
   return (
     <button
       onClick={scrollToFooter}
-      className="bg-min rounded-full py-3 px-7 lg:text-base font-semibold text-white hover:bg-min cursor-pointer  hover:scale-95 transition-all duration-100 transform md:w-fit "
-    >
-      <span>Book A Free Consultation</span>
+      className={`bg-min ${cta?'rounded-xl':'rounded-full'} py-3 px-7 lg:text-base font-semibold text-white hover:bg-min cursor-pointer  hover:scale-95 transition-all duration-100 transform md:w-fit`}>
+      <span>Get A Free Consultation</span>
     </button>
   );
 }

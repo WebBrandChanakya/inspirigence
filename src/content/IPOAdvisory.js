@@ -1,4 +1,5 @@
 
+import Link from "next/link";
 import {
   FaLightbulb,
   FaShieldAlt,
@@ -19,14 +20,14 @@ export const Data = {
   description2:
     "As a trusted partner in India’s equity markets, we help companies go public with confidence, ensuring long-term growth and success.",
   contactLink: "/contact",
-  imageSrc: "/images/services/ipo.jpg",
+  imageSrc: "/images/services/ipo.jpeg",
 };
 export const ipoData = {
   heading: "Inspirigence – Your Partner For Successful IPO Launch",
   images: [
     {
       id: 1,
-      src: "/images/home/hero-img.png",
+      src: "/images/services/Ipo-launch.jpg",
       alt: "IPO Consultation",
       width: 600,
       height: 600,
@@ -324,7 +325,7 @@ export const faqs = [
       "How does the IPO process work in India, and what are the key stages involved?",
     answer: (
       <span>
-        In India, the <a href="/how-to-launch-ipo-in-india">IPO launching process</a> consists of several stages, but you
+        In India, the <Link href="/how-to-launch-ipo-in-india">IPO launching process</Link> consists of several stages, but you
         do not have to go alone through all the processes. Our IPO consulting
         services make the entire process smooth and effortless. The various key
         stages involved in the entire process are: <br />

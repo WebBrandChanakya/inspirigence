@@ -10,11 +10,11 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Portfolio Management Service"} />
       <About data={Data} />
       <div className=" py-14 max-w-7xl mx-auto">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
           Why Choose Our Portfolio Management Services
         </h3>
         <Card cardData={Why} hover />
@@ -26,8 +26,8 @@ const page = () => {
         />
       <div className="bg-primarybg">
         <div className="  max-w-7xl mx-auto  pt-4 lg:pt-20  relative ">
-          <div className="bg-white dark:bg-secondary px-2 z-10 py-4  lg:p-14 rounded-lg shadow2xl">
-            <h3 className="lg:text-4xl text-xl font-bold dark:text-primary text-secondary text-center mb-4 lg:mb-10">
+          <div className="bg-white dark:bg-darkLvl2 px-2 z-10 py-4  lg:p-14 rounded-lg shadow2xl">
+            <h3 className="lg:text-4xl text-xl font-bold dark:text-white text-secondary text-center mb-4 lg:mb-10">
               Who Can Benefit from Our Portfolio Management Services
             </h3>
             <SideCard cardData={cardData} />
@@ -36,7 +36,7 @@ const page = () => {
         <div className="w-full bg-primary h-40 -mt-28 lg:-mt-16"></div>
       </div>
       <div className=" py-14 max-w-7xl mx-auto">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
         Types of Portfolio Management Services We Offer
         </h3>
         <Card cardData={Type}  />

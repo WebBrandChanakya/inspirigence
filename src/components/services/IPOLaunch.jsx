@@ -6,11 +6,11 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 // Data for Images and Text Content
 
 
-function IPOLaunch({ipoData}) {
+function IPOLaunch({ipoData,dark}) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="mx-auto rounded-2xl flex flex-col md:flex-row items-center">
+    <div className="mx-auto rounded-2xl flex flex-col md:flex-row items-center space-x-4">
       {/* Image Section - Render images dynamically */}
       {ipoData.images.map((image) => (
         <Image
@@ -19,13 +19,13 @@ function IPOLaunch({ipoData}) {
           alt={image.alt}
           width={image.width}
           height={image.height}
-          className="object-cover"
+          className={`object-cover rounded ${dark?"dark:invert":""}`}
         />
       ))}
 
       {/* Text Content Section */}
       <div className="md:w-1/2">
-        <h2 className="text-4xl font-bold text-secondary">
+        <h2 className="text-4xl font-bold text-secondary dark:text-white">
         {ipoData.heading}
         </h2>
 

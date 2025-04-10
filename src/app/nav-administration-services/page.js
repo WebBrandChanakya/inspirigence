@@ -5,10 +5,10 @@ import React from "react";
 import { Data, points } from "@/content/NAV";
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Fund Administration Services"} />
       <About data={Data} />
-      <div className="bg-secondary">
+      <div className="bg-secondary dark:bg-darkLvl2">
       <div className=" text-white py-12 max-w-7xl mx-auto border-b">
         <h2 className="text-2xl font-semibold text-center mb-6">
           Why Choose Our NAV Administration Service

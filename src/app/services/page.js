@@ -7,7 +7,7 @@ import { ctaData, cardData } from "@/content/Services";
 
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Services"} />
       <div className=" py-14 max-w-7xl m-auto ">
         <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10"></h3>

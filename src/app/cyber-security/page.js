@@ -7,11 +7,11 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='bg-white dark:bg-secondary'>
+    <div className='bg-white dark:bg-darkLvl1'>
             <PageBanner data={"Cyber Security"}/>
             <About data={Data}/>
             <div className="py-14  max-w-7xl mx-auto">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
         Why Cybersecurity is Essential?
         </h3>
         <p className="px-6 text-center dark:text-white text-black lg:text-left">
@@ -20,7 +20,7 @@ const page = () => {
       </div>
       <div className=" py-14 bg-primarybg">
         <div className=" max-w-7xl mx-auto  ">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
         Our Cybersecurity Services
         </h3>
         <Card cardData={Services} hover />

@@ -5,7 +5,7 @@ const IPOConsulting = ({services,heading}) => {
   return (
     <div className=" flex justify-center items-center ">
       <div className="">
-        <h2 className="text-center text-2xl text-secondary dark:text-white font-bold mb-6">
+        <h2 className="text-center text-2xl text-secondary dark:text-white font-bold mb-6 capitalize">
           {heading}
         </h2>
         <div className="grid md:grid-cols-3 gap-6">

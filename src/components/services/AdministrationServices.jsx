@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const AdministrationServices = () => {
@@ -6,13 +7,13 @@ const AdministrationServices = () => {
       <div className="mx-auto py-12 max-w-7xl ">
 
 
-        <div className=" border dark:bg-secondary bg-white p-6 rounded-lg mt-6">
-          <h2 className="text-2xl font-bold text-center text-primary mb-4">
+        <div className=" border dark:bg-darkLvl2 bg-white p-6 rounded-lg mt-6">
+          <h2 className="text-2xl font-bold text-center text-primary dark:text-white mb-4">
             Fund Accounting and Fund Administration Services
           </h2>
           <p className="text-gray-700 dark:text-gray-300">
             <strong>Fund Accounting:</strong> Fund accountants track all purchases, sales, and other transactions related to the fund’s investments,
-            ensuring accuracy and completeness in recording these activities. <a className='text-primary' href='/nav-administration-services'>Fund accountants</a> determine the value of the fund’s
+            ensuring accuracy and completeness in recording these activities. <Link className='text-primary' href='/nav-administration-services'>Fund accountants</Link> determine the value of the fund’s
             investments, including stocks, bonds, real estate, and other assets, using relevant valuation methodologies such as market
             value, fair value, or net asset value (NAV).
           </p>

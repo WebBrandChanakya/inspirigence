@@ -10,11 +10,11 @@ import Card from '@/components/ui/Card'
 
 const page = () => {
   return (
-    <div className='bg-white dark:bg-secondary'>
+    <div className='bg-white dark:bg-darkLvl1'>
         <PageBanner data={"Financial Due Diligence Services in India"}/>
         <About data={Data}/>
         <div className="py-14 max-w-7xl mx-auto">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
         Understanding Financial Due Diligence in Business Transactions
         </h3>
         <p className="px-6 text-center dark:text-white text-black lg:text-left">
@@ -24,7 +24,7 @@ const page = () => {
       <MAConsulting heading={"Inspirigence – The Best Financial Due Diligence Firm"} para={"The breadth of due diligence varies with the size and structure of the organization, whether you are trying to acquire a new company or selling a unit. Inspirigence, a one of the top financial due diligence firms in India, offers services by doing in-depth analysis and research of the company’s legal and financial situation. The following is a step-by-step guide to the due diligence process:"} services={Diligence }/>
       <About data={Best}/>
       <div className=" py-14 max-w-7xl mx-auto ">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
         What Makes Us Stand Out?
         </h3>
         <p className="px-6 text-center dark:text-white text-black mb-10">
@@ -34,8 +34,8 @@ const page = () => {
       </div>
       <div className='bg-primarybg'>
         <div className=" max-w-7xl mx-auto pt-4 lg:pt-20  relative ">
-          <div className="bg-white dark:bg-secondary px-2 z-10 py-4  lg:p-14 rounded-lg shadow2xl">
-            <h3 className="lg:text-4xl text-xl font-bold dark:text-primary text-secondary text-center mb-4 lg:mb-10">
+          <div className="bg-white dark:bg-darkLvl2 px-2 z-10 py-4  lg:p-14 rounded-lg shadow2xl">
+            <h3 className="lg:text-4xl text-xl font-bold dark:text-white text-secondary text-center mb-4 lg:mb-10">
             Documents Required During Due Diligence Process
             </h3>
             <SideCard cardData={cardData} />

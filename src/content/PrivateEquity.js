@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaBrain, FaSyncAlt } from "react-icons/fa";
 
 
@@ -43,7 +44,7 @@ export const Data = {
     {
       title: "Versatility",
       description:
-        <>The sustainability of an investment thesis depends on the ability to adjust to the project dynamics and take the necessary action. Flexibility and humility are values that we value highly at <a href="/"> Inspirigence</a>. It has continuously assisted us in identifying trends and tactics that have enhanced our clients’ returns and competitiveness.</>,
+        <>The sustainability of an investment thesis depends on the ability to adjust to the project dynamics and take the necessary action. Flexibility and humility are values that we value highly at <Link href="/"> Inspirigence</Link>. It has continuously assisted us in identifying trends and tactics that have enhanced our clients’ returns and competitiveness.</>,
       icon: <FaSyncAlt className="text-3xl text-white" />,
     },
   ];

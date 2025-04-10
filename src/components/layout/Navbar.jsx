@@ -17,9 +17,9 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-white dark:bg-secondary sticky w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <nav className="bg-white dark:bg-darkLvl1 sticky w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
                         src="/images/logo/logo-footer.png"
                         width={250}
@@ -27,7 +27,7 @@ const Navbar = () => {
                         className="rounded-lg"
                         alt="Inspirigence Advisors | Financial Services"
                     />
-                </a>
+                </Link>
                 
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <DarkModeToggle />
@@ -51,21 +51,21 @@ const Navbar = () => {
                                         >
                                             {link.label} <FiChevronDown size={16} className="ml-1" />
                                         </Link>
-                                        <div className={`absolute -left-1/3 space-x-4  bg-white border  dark:bg-primary overflow-hidden shadow-lg rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}
+                                        <div className={`absolute -left-1/3 space-x-4  bg-white border  dark:bg-darkLvl2 overflow-hidden shadow-lg rounded-lg ${dropdownOpen ? 'block' : 'hidden'}`}
                                             onMouseEnter={() => setDropdownOpen(true)}
                                             onMouseLeave={() => setDropdownOpen(false)}
                                            >
                                             <div className="bg-[#023a5124] flex p-10">
                                             {link.subLinks.map((subLink, subIndex) => (
                                                 <ul key={subIndex} >
-                                                    <Link href={subLink.href} className="block font-bold text-nowrap px-4  text-secondary ">
+                                                    <Link href={subLink.href} className="block font-bold text-nowrap px-4  text-secondary dark:text-min ">
                                                         {subLink.label}
                                                     </Link>
                                                     
                                                     <li>
                                                         {subLink.subServices&&subLink.subServices.map((subService)=>{
                                                             return (
-                                                            <Link href={subService.href} className="block px-4 py-2 text-nowrap text-gray-700 dark:text-gray-50 dark:hover:text-secondary hover:text-primary ">
+                                                            <Link href={subService.href} className="block px-4 py-2 text-nowrap text-gray-700 dark:text-gray-100 dark:hover:text-white hover:text-primary ">
                                                                 {subService.label}
                                                             </Link>)
                                                         })}

@@ -6,21 +6,22 @@ import MAConsulting from "@/components/services/MAConsulting";
 import Card from "@/components/ui/Card";
 import FormComponent from "@/components/layout/FormComponent";
 import WhatWeDo from "@/components/services/WhatWeDo";
+import Link from "next/link";
 const page = () => {
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Private Equity Consulting"} />
       <About data={Data} />
       <div className="py-14 max-w-7xl mx-auto">
-        <h3 className="text-4xl font-bold dark:text-primary text-secondary text-center mb-10">
+        <h3 className="text-4xl font-bold dark:text-white text-secondary text-center mb-10">
         Private Equity Funds: What are They?
         </h3>
         <p className="px-6 text-center dark:text-white text-black lg:text-left">
-        A private equity fund, commonly known as private equity, is a type of collective investment plan that entails investors making direct investments in privately held businesses. Typically, a limited liability company or firm will oversee the management of a private equity fund. The investment horizon with these funds can be extended annually and can vary from 5 to 10 years.<br/>The fact that private equity funds are not traded on the stock exchange is one of their distinguishing characteristics. Moreover, not everyone has access to these capitals. only, investment banks and <a href="https://en.wikipedia.org/wiki/High-net-worth_individual"> High Networth Individuals </a> (HNIs) make up the majority of institutional investors from whom money is often raised. A team that is professionally managed raises money and puts it to use by investing in other privately held businesses, raising capital, and financing new ventures and acquisitions.
+        A private equity fund, commonly known as private equity, is a type of collective investment plan that entails investors making direct investments in privately held businesses. Typically, a limited liability company or firm will oversee the management of a private equity fund. The investment horizon with these funds can be extended annually and can vary from 5 to 10 years.<br/>The fact that private equity funds are not traded on the stock exchange is one of their distinguishing characteristics. Moreover, not everyone has access to these capitals. only, investment banks and <Link href="https://en.wikipedia.org/wiki/High-net-worth_individual"> High Networth Individuals </Link> (HNIs) make up the majority of institutional investors from whom money is often raised. A team that is professionally managed raises money and puts it to use by investing in other privately held businesses, raising capital, and financing new ventures and acquisitions.
         </p>
       </div>
       <MAConsulting heading={"Functions of Private Equity Consulting Firms"} services={Functions} para={"Following are some of the most typical uses:"}/>
-      <div  className="bg-secondary">
+      <div  className="bg-secondary dark:bg-darkLvl2">
       <div className="py-14 max-w-7xl mx-auto ">
           <h3 className="text-2xl font-bold text-white text-center mb-10">
           Why Choose Inspirigence?
@@ -36,7 +37,7 @@ const page = () => {
       </div>
       <div className="max-w-7xl mx-auto">
         <div className="  ">
-          <h3 className="text-4xl my-12 font-bold dark:text-primary text-secondary text-center ">
+          <h3 className="text-4xl my-12 font-bold dark:text-white text-secondary text-center ">
           What makes us The Best Private Equity Consulting Firm in India?
           </h3>
         </div>

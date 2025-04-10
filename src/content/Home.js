@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 export const services = [
   {
-    name: <>Investment <br/>Banking</>,
+    name: <>Investment Banking</>,
     icon: <FaCheckCircle className="text-3xl text-white" />,
     link: "/services/investment-banking-advisors",
   },

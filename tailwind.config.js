@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        'light-rotate': {
+          '0%': { 'background-position': '0% 50%' },
+          '50%': { 'background-position': '100% 50%' },
+          '100%': { 'background-position': '0% 50%' },
+        },
+      },
+      animation: {
+        'light-rotate': 'light-rotate 6s ease-in-out infinite',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

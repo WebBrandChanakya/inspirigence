@@ -57,17 +57,17 @@ const page = async () => {
   
   let posts = await fetchPosts();
   return (
-    <div className="bg-white dark:bg-secondary">
+    <div className="bg-white dark:bg-darkLvl1">
       <PageBanner data={"Blogs"} />
       <section className="py-24 bg-white dark:bg-primarybg">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="font-manrope text-4xl font-bold text-primary text-center mb-16 uppercase">
+          <h2 className="font-manrope text-4xl font-bold text-primary dark:text-white text-center mb-16 uppercase">
             Our latest blog
           </h2>
           <div className="grid md:grid-cols-1 lg:grid-cols-3 justify-center  gap-8  lg:justify-between ">
             {posts.map(({ node }) => (
               <>
-                <div className="w-full  border border-gray-300 rounded-2xl transition-all duration-300 shadow-lg hover:-translate-y-3">
+                <div className="w-full dark:bg-darkLvl2 border border-gray-300 rounded-2xl transition-all duration-300 shadow-lg hover:-translate-y-3">
                   <div className="flex items-center">
                     <img
                       src={node.featuredImage?.node?.mediaItemUrl}
@@ -76,7 +76,7 @@ const page = async () => {
                     />
                   </div>
                   <div className="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl ">
-                    <span className="text-primary font-medium mb-3 block">
+                    <span className="text-primary dark:text-white font-medium mb-3 block">
                       Published On:{" "}
                       {new Date(node?.date).toLocaleDateString()}
                     </span>
@@ -95,7 +95,7 @@ const page = async () => {
 
                     <Link
                       href={`${node.slug}`}
-                      className="cursor-pointer text-lg text-primary font-semibold"
+                      className="cursor-pointer text-lg text-primary dark:text-white font-semibold"
                     >
                       Read more..
                     </Link>

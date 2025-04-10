@@ -30,7 +30,7 @@ const Mission = () => {
             <h3 className="text-min  text-2xl font-bold font-manrope leading-normal lg:text-start text-center">
             Our Mission
             </h3>
-            <h2 className="text-secondary dark:text-white  text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+            <h2 className="text-secondary capitalize dark:text-white  text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
             Helping our clients identify their business and financial needs
             </h2>
             <p className="text-gray-500 dark:text-gray-300 text-base font-normal leading-relaxed lg:text-start text-center">
